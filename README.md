@@ -9,7 +9,7 @@
 
 I operate at the intersection of **low-level systems programming (C++, Metal, CUDA)**, **NP-hard discrete optimization (CSP/DSA)**, and **autonomous multimodal AI orchestration**. Rather than typing repetitive boilerplate line-by-line, I leverage high-order architectural prompting, mathematical modeling, and multi-agent synthesis to design and deploy production systems at **100x the speed of traditional engineering teams**.
 
-- **Published Book (Version 2.0)**: [**RULE BREAKING: The 100x AI Chief Architect Manifesto**](https://github.com/hrlpavan/rule-breaking-v2-book)
+- **Published Book (Volume 3.0)**: [**RULE BREAKING: The 100x AI Chief Architect Manifesto**](https://github.com/hrlpavan/rule-breaking-v2-book)
 - **Corporate Platform**: [hrlpavan.github.io/hrl-international-website-/](https://hrlpavan.github.io/hrl-international-website-/)
 - **Compensation & Hiring Charter**: [engineering-compensation-blueprint](https://github.com/hrlpavan/engineering-compensation-blueprint)
 - **Executive CV**: [`CV.md`](https://github.com/hrlpavan/engineering-compensation-blueprint/blob/main/CV.md)
