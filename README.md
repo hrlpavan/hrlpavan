@@ -12,6 +12,7 @@ I operate at the intersection of **low-level systems programming (C++, Metal, CU
 - **Corporate Platform**: [hrlpavan.github.io/hrl-international-website-/](https://hrlpavan.github.io/hrl-international-website-/)
 - **Compensation & Hiring Charter**: [engineering-compensation-blueprint](https://github.com/hrlpavan/engineering-compensation-blueprint)
 - **Executive CV**: [`CV.md`](https://github.com/hrlpavan/engineering-compensation-blueprint/blob/main/CV.md)
+- **Executive Resume**: [`RESUME.md`](RESUME.md)
 - **The 100x Advantage**: [`WHY_I_AM_DIFFERENT_AND_100X_FASTER.md`](WHY_I_AM_DIFFERENT_AND_100X_FASTER.md)
 - **Official Brand Inquiries**: `hrlinternationalprivatelimited@gmail.com`
 
@@ -63,5 +64,6 @@ I operate at the intersection of **low-level systems programming (C++, Metal, CU
 ## Core Documentation
 - [Why I Am Completely Different From Normal Coders](WHY_I_AM_DIFFERENT_AND_100X_FASTER.md)
 - [Official Curriculum Vitae (CV)](https://github.com/hrlpavan/engineering-compensation-blueprint/blob/main/CV.md)
+- [Official Executive Resume (RESUME.md)](RESUME.md)
 - [Formal Hiring Demand & Terms Letter](https://github.com/hrlpavan/engineering-compensation-blueprint/blob/main/COMPENSATION_DEMAND_LETTER.md)
 - [Quantitative Technical Valuation & Negotiation Playbook](https://github.com/hrlpavan/engineering-compensation-blueprint/blob/main/COMPENSATION_AND_VALUATION_ANALYSIS.md)
