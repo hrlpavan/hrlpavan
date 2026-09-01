@@ -9,6 +9,7 @@
 > ### OFFICIAL ANNOUNCEMENT: HRL PROGRAMMING LANGUAGE FOR LLMs (v1.0)
 > **Announcing HRL (Hierarchical Reasoning Language)** — A domain-specific, verifiable programming language engineered for **Large Language Models (LLMs), dual-timescale FeUdal macro/micro planning (C=8), symbolic reachability verification (Rc(s)), and autonomous multi-agent orchestration**.
 > - **GitHub Repository**: [**github.com/hrlpavan/hrl-lang**](https://github.com/hrlpavan/hrl-lang)
+> - **Master Patent Specification**: [`PATENT_SPECIFICATION_HRL_LANG.md`](https://github.com/hrlpavan/hrl-lang/blob/main/PATENT_SPECIFICATION_HRL_LANG.md)
 > - **Language Portal**: [**hrlpavan.github.io/hrl-lang/**](https://hrlpavan.github.io/hrl-lang/)
 > - **Corporate Announcement**: [**hrlpavan.github.io/hrl-international-website-/hrl-lang.html**](https://hrlpavan.github.io/hrl-international-website-/hrl-lang.html)
 > - **Live Policy Theater**: [**hrlpavan.github.io/hrl-project-extreme/**](https://hrlpavan.github.io/hrl-project-extreme/)
