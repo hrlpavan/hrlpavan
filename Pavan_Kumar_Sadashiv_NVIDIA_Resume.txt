@@ -1,0 +1,58 @@
+PAVAN KUMAR SADASHIV
+AI Systems Chief Architect | GPU Compute & Applied AI Engineer
+Mangaluru, Karnataka, India | Email: hrlinternationalprivatelimited@gmail.com | GitHub: github.com/hrlpavan
+Portfolio: hrlpavan.github.io/hrl-international-website- | Charter: github.com/hrlpavan/engineering-compensation-blueprint
+
+================================================================================
+PROFESSIONAL SUMMARY
+================================================================================
+High-velocity AI Systems Chief Architect and Applied AI Engineer with deep expertise in low-level GPU visual computing (C++, NVIDIA CUDA, Apple Metal), neural network inference optimization (PyTorch, ONNX Runtime, Depth Anything), and combinatorial discrete optimization (NP-hard Constraint Satisfaction Solvers). Proven track record architecting hardware-accelerated OpenFX compute engines for Hollywood post-production suites (DaVinci Resolve), implementing zero-bloat backend systems, and directing enterprise multi-agent AI orchestration. Adept at bridging mathematical models with high-performance GPU execution.
+
+================================================================================
+CORE TECHNICAL COMPETENCIES
+================================================================================
+- GPU & Low-Level Compute: NVIDIA CUDA Kernel Programming, Apple Metal (MSL), C++17/20, C, OpenFX API, GPU Memory Hierarchy Optimization
+- AI / ML & Vision Systems: PyTorch, ONNX Runtime, Monocular Neural Depth Estimation (Depth Anything), Computer Vision, ACEScc Color Science
+- Algorithms & Optimization: Combinatorial Optimization, NP-Hard Constraint Satisfaction (CSP) Backtracking, Dynamic K-Means (k=3), Bayesian ML
+- Systems & Infrastructure: Native Node.js (Zero-Framework Architecture), SQLite 3 (ACID Transactions), Google Antigravity SDK, Cloud Composer, BigQuery
+- DevOps & Software Tooling: Git, GitHub Actions (CI/CD), CMake, macOS DMG Packaging & Application Bundling, Linux Administration
+
+================================================================================
+FLAGSHIP ENGINEERING & GPU PROJECTS
+================================================================================
+1. AI Cinematic Haze — OpenFX & Fusion GPU Plugin for DaVinci Resolve
+   Technologies: C++17/20, NVIDIA CUDA, Apple Metal (MSL), OpenFX API, Depth Anything AI, ONNX Runtime, CMake
+   - Architected a high-throughput, hardware-accelerated OpenFX visual compute plugin integrated into DaVinci Resolve 21 and Blackmagic Fusion.
+   - Programmed native GPU compute kernels using NVIDIA CUDA for NVIDIA GPUs and Apple Metal Shading Language for Apple Silicon.
+   - Integrated monocular neural depth estimation (Depth Anything) via ONNX Runtime to calculate real-time volumetric optical atmospheric scattering.
+   - Preserved uncompressed 12-bit DPX sensor dynamic range through strict Hollywood ACEScc color science management without luminance clipping.
+
+2. InvigiMatrix — College Examination & Invigilation Management Portal
+   Technologies: JavaScript (ES6+), Native Node.js (Zero-Framework), SQLite 3, CSP Backtracking, K-Means Clustering
+   Repository: https://github.com/hrlpavan/exam-invigilation-dsa-app
+   - Implemented an NP-hard Constraint Satisfaction Problem (CSP) Backtracking solver eliminating scheduling collisions across faculty, rooms, and dates.
+   - Built an AI/ML Smart Batch Planner with K-Means (k=3) & Bayesian classifier for anti-cheating student seat dispersion.
+   - Engineered a high-throughput, zero-framework native Node.js REST server backed by SQLite with strict ACID-compliant transactions.
+
+3. OmniTransform AI — Enterprise Intelligent Process Automation Platform
+   Technologies: Multimodal AI Pipelines, Phonetic NLP, ElevenLabs Voice AI, Google Cloud BigQuery
+   Repository: https://github.com/hrlpavan/omnitransform-ai-resources
+   - Designed an enterprise IPA platform featuring multimodal document parsing and phonetic entity extraction.
+   - Engineered multi-agent coordination architectures utilizing Google Antigravity SDK and Cloud Composer (Airflow).
+
+================================================================================
+PROFESSIONAL EXPERIENCE & LEADERSHIP
+================================================================================
+Founder & Managing Director — HRL International Private Limited (2026 – Present)
+- Founded enterprise deep-tech software and media venture; authored Startup India Seed Fund & Karnataka ELEVATE grant dossiers.
+- Architected automated media distribution infrastructures generating 2.5M+ organic impressions across digital channels.
+
+================================================================================
+EDUCATION & VERIFIED CERTIFICATIONS
+================================================================================
+Bachelor of Engineering (B.E.) in Computer Science & Engineering (AI & ML)
+Sahyadri College of Engineering & Management (SCEM), Mangaluru, Karnataka, India
+
+- JPMorgan Chase & Co. — Distributed Streaming & Software Engineering Simulation (Kafka, REST Controller Architecture)
+- Deloitte Australia — Cybersecurity Defense & Enterprise Threat Modeling Simulation (Perimeter Defense, Incident Response)
+- Blackmagic Design — DaVinci Resolve Color Science & Visual Computing Integration
