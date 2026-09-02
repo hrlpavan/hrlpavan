@@ -38,6 +38,7 @@ I operate at the intersection of **low-level systems programming (C++, Metal, CU
 - **Executive CV**: [`CV.md`](https://github.com/hrlpavan/engineering-compensation-blueprint/blob/main/CV.md)
 - **Executive Resume**: [`RESUME.md`](RESUME.md)
 - **The 100x Advantage**: [`WHY_I_AM_DIFFERENT_AND_100X_FASTER.md`](WHY_I_AM_DIFFERENT_AND_100X_FASTER.md)
+- **Legal Notice & Cyber Directive**: [`LEGAL_CEASE_AND_DESIST_NOTICE.md`](LEGAL_CEASE_AND_DESIST_NOTICE.md)
 - **Official Brand Inquiries**: `hrlinternationalprivatelimited@gmail.com`
 
 ---
