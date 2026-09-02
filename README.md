@@ -6,12 +6,12 @@
 ---
 
 > [!IMPORTANT]
-> ### 🟢 OFFICIAL ANNOUNCEMENT: NVIDIA RTX-LOCALAI ENTERPRISE RUNTIME (v1.0)
-> **Announcing NVIDIA RTX-LocalAI** — A production-grade C++20 and CUDA on-device generative AI runtime engineered for **GeForce RTX & DGX workstations**, delivering **0.17 µs Paged KV-Cache allocation (0.00% fragmentation)**, **sub-5 µs CUDA Graph kernel replay**, **FP8 Ada Lovelace hardware acceleration**, and **1,538+ tokens/sec sustained local throughput**.
+> ### 🟢 OPEN SOURCE RELEASE: LOCALAI RUNTIME FOR CUDA &amp; RTX GPUS (v1.0)
+> **Announcing LocalAI Runtime** — A production-grade, 100% open-source C++20 and CUDA on-device generative AI runtime engineered for **NVIDIA GPU workstations**, delivering **0.17 µs Paged KV-Cache allocation (0.00% fragmentation)**, **sub-5 µs CUDA Graph kernel replay**, **FP8 Ada Lovelace hardware acceleration**, and **1,538+ tokens/sec sustained local throughput**. Free to adopt and embed in your own projects.
 > - **GitHub Repository**: [**github.com/hrlpavan/nvedia-project-by-hrl**](https://github.com/hrlpavan/nvedia-project-by-hrl)
 > - **Live Interactive Studio**: [**hrlpavan.github.io/nvedia-project-by-hrl/**](https://hrlpavan.github.io/nvedia-project-by-hrl/)
 > - **Technical Architecture Manual**: [**hrlpavan.github.io/nvedia-project-by-hrl/implementation.html**](https://hrlpavan.github.io/nvedia-project-by-hrl/implementation.html)
-> - **Corporate Announcement**: [**hrlpavan.github.io/hrl-international-website-/nvidia-rtx-localai.html**](https://hrlpavan.github.io/hrl-international-website-/nvidia-rtx-localai.html)
+> - **Architecture Showcase**: [**hrlpavan.github.io/hrl-international-website-/nvidia-rtx-localai.html**](https://hrlpavan.github.io/hrl-international-website-/nvidia-rtx-localai.html)
 
 > [!NOTE]
 > ### OFFICIAL ANNOUNCEMENT: HRL PROGRAMMING LANGUAGE FOR LLMs (v1.0)
@@ -29,7 +29,7 @@
 
 I operate at the intersection of **low-level systems programming (C++, Metal, CUDA)**, **NP-hard discrete optimization (CSP/DSA)**, and **autonomous multimodal AI orchestration**. Rather than typing repetitive boilerplate line-by-line, I leverage high-order architectural prompting, mathematical modeling, and multi-agent synthesis to design and deploy production systems at **100x the speed of traditional engineering teams**.
 
-- **NVIDIA Systems Architecture**: [**NVIDIA RTX-LocalAI Runtime (`nvedia-project-by-hrl`)**](https://github.com/hrlpavan/nvedia-project-by-hrl)
+- **GPU Systems Architecture**: [**LocalAI Runtime for CUDA/RTX (`nvedia-project-by-hrl`)**](https://github.com/hrlpavan/nvedia-project-by-hrl)
 - **New Programming Language**: [**HRL Language for LLMs (`hrl-lang`)**](https://github.com/hrlpavan/hrl-lang)
 - **Hierarchical Simulation**: [**HRL Project Extreme**](https://hrlpavan.github.io/hrl-project-extreme/)
 - **Published Book (Volume 4.0)**: [**RULE BREAKING: The 100x AI Chief Architect Manifesto**](https://github.com/hrlpavan/rule-breaking-v2-book)
