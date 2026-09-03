@@ -5,6 +5,16 @@
 
 ---
 
+> [!CAUTION]
+> ### 🏛️ OFFICIAL CORPORATE GOVERNANCE & STATUTORY LEGAL NOTICE (v2.0)
+> **Mandatory Guidelines for Visitors, Academic Peers, and Collaborators:**  
+> All engineering projects, software repositories, and research architectures under HRL International are protected under **Central & State Government Strategic Innovation Frameworks** (Startup India SISFS, Karnataka ELEVATE 2026 Idea2POC, and MeitY initiatives).
+> - 📄 **Download Official Guidelines (PDF)**: [**`HRL_International_Company_Guidelines_and_Statutory_Notice.pdf`**](https://github.com/hrlpavan/hrlpavan/blob/main/HRL_International_Company_Guidelines_and_Statutory_Notice.pdf)
+> - ⚖️ **Statutory Notice**: Any intentional defamation, cyber-bullying, public mockery in academic groups, or unauthorized code scraping is subject to **immediate First Information Report (FIR) criminal proceedings (BNS 2023 / IT Act Sec 66)**, **Karnataka Anti-Ragging prosecution**, and **statutory civil damages**.
+> - 📊 **Master Legal & Document Inventory (26 Assets)**: [`DOCUMENT_INVENTORY_AND_STATUTORY_INDEX.md`](https://github.com/hrlpavan/hrlpavan/blob/main/DOCUMENT_INVENTORY_AND_STATUTORY_INDEX.md)
+
+---
+
 > [!IMPORTANT]
 > ### 🟢 OPEN SOURCE RELEASE: LOCALAI RUNTIME FOR CUDA &amp; RTX GPUS (v1.0)
 > **Announcing LocalAI Runtime** — A production-grade, 100% open-source C++20 and CUDA on-device generative AI runtime engineered for **NVIDIA GPU workstations**, delivering **0.17 µs Paged KV-Cache allocation (0.00% fragmentation)**, **sub-5 µs CUDA Graph kernel replay**, **FP8 Ada Lovelace hardware acceleration**, and **1,538+ tokens/sec sustained local throughput**. Free to adopt and embed in your own projects.
