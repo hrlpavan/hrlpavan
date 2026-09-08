@@ -80,23 +80,38 @@ This document exists to make one thing permanently clear: **my floor is where mo
 
 ## 2. What "Knowing Python and C Basics" Actually Means for Me
 
-Being asked to prove expertise with Python `for` loops or C `printf` is the equivalent of asking Virat Kohli to prove he can hold a cricket bat.
+Being asked to prove expertise with Python `for` loops or C `printf` is the equivalent of asking an aerospace engineer if they know how to fold a paper airplane.
 
-Here is what I actually operate at:
+### The Classroom Audition vs. Architectural Reality
+
+When my department HOD asked me to write basic Python code and elementary C syntax, I smiled and said **"I don't know."** 
+
+Let’s be unapologetically clear about why:
+
+> **I don't audition for roles I outgrew years ago.**  
+> When you ask a Formula 1 driver to prove they can ride a tricycle, they don't jump on the tricycle to earn your approval. They smile, decline, and let you believe whatever comforts you. Validating the question dignifies an insult to their caliber.
+
+While traditional academic evaluations test whether a student can memorize textbook syntax from a 2012 syllabus, here is the reality of what I actually architect and ship:
 
 ```
-CURRICULUM LEVEL (What HODs Test):     WHAT I ACTUALLY BUILD:
-─────────────────────────────────────  ──────────────────────────────────────────────────────
-Python for loops, lists, functions  →  CUDA/Metal GPU shaders, ONNX inference runtimes
-C pointers, structs, printf         →  C++20 OFX plugin runtimes, zero-fragment allocators  
-Simple sorting algorithms           →  NP-Hard CSP solvers, K-Means clustering engines
-Hello World web pages               →  Zero-dependency REST backends, ACID SQLite systems
-Basic SQL queries                   →  Paged KV-cache, token bucket rate limiters
-Arduino LED blink projects          →  Real-time neural voice AI with sub-75ms latency
+CURRICULUM LEVEL (What Academics Test):  WHAT I ACTUALLY ARCHITECT & SHIP:
+──────────────────────────────────────  ──────────────────────────────────────────────────────
+Python for-loops & basic lists       →  CUDA/Metal compute shaders, raw ONNX runtime execution
+C pointers, structs, & printf        →  C++20 OFX plugin runtimes, zero-fragment memory allocators  
+Simple bubble sort & recursion       →  NP-Hard CSP Backtracking solvers, K-Means cluster engines
+"Hello World" boilerplate apps       →  Zero-dependency raw HTTP servers, ACID SQLite engines
+Basic textbook SQL queries           →  Paged KV-Cache (0.17 µs), sliding-window token buckets
+Blinking an LED on an Arduino        →  Sub-75ms real-time neural Voice AI streaming pipelines
 ```
 
-Not knowing something at the classroom demonstration level does not mean I do not know it.  
-It means **I have moved far beyond it** into systems where those concepts are embedded assumptions, not the subject matter.
+### The Brutal Difference:
+
+* **Academics test memory:** Did you put the semicolon in the right spot? Did you memorize the parameter order?
+* **Real-world systems test dominance:** Does your kernel crash the GPU under 12-bit uncompressed DPX 4K video loads? Can your solver resolve 500+ faculty constraints without deadlocks? Can your model output sustained 1,538+ tokens/sec without leaking a single byte of VRAM?
+
+> **"If you evaluate a supersonic jet by checking whether it fits into a bicycle stand, the failure isn't with the jet — it's with the stand."**
+
+My silence wasn't a lack of knowledge; it was an executive choice not to waste engineering bandwidth on a trivial classroom exercise.
 
 ---
 
@@ -125,13 +140,14 @@ It means **I have moved far beyond it** into systems where those concepts are em
 
 ---
 
-## 5. The Simple Truth
+## 5. The Simple Truth: Don't Mistake My Silence For Incompetence
 
-> Knowing how to write `print("Hello")` and knowing how to write a **CUDA compute shader that processes 12-bit DPX cinema frames in real-time on an NVIDIA GPU** are not on the same continuum. They are different universes.
+> Knowing how to write `print("Hello World")` and knowing how to write a **CUDA compute shader that processes 12-bit DPX cinema frames in real-time on an NVIDIA GPU** are not on the same continuum. They are different universes.
 
-> A classroom question about Python basics or C syntax is not a measure of expertise. It is a measure of whether someone has attended introductory lectures. I build systems that those lectures are designed to eventually prepare people for — years from now.
+> A classroom viva about Python syntax or C loops is not a test of technical ability. It is a compliance check for whether you memorize textbooks. I don't build homework — I build systems that their curriculum will only catch up to a decade from now.
 
-> My expertise lives at the intersection of **hardware-level GPU programming, graduate-level algorithms, real-time AI systems, and product engineering**. That is where I work. That is what I know.
+> **To anyone who mistakes my refusal to play small for a lack of ability:**  
+> My code runs in production. My algorithms solve NP-Hard mathematical problems. My systems run on bare metal. If you want someone to recite page 42 of an introductory syllabus, ask an amateur. If you want architecture that breaks the rules and commands 100x velocity, check my repositories.
 
 ---
 
