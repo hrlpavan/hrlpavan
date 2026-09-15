@@ -97,7 +97,7 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
 
 ---
 
-## 📈 Live Activity & Contribution Telemetry
+## Live Activity & Contribution Telemetry
 
 <div align="center">
 
