@@ -6,6 +6,34 @@
 🌐 **Official Portal**: [hrl-brand-seo.vercel.app](https://hrl-brand-seo.vercel.app) | **Main Web**: [hrlpavan.github.io/hrl-international-website-/](https://hrlpavan.github.io/hrl-international-website-/)  
 📧 **Official Inquiries**: `hrlinternationalprivatelimited@gmail.com`
 
+<div align="center">
+
+[![Chief Architect](https://img.shields.io/badge/Chief%20Architect-Pavan%20Kumar%20Sadashiv-0A66C2?style=for-the-badge&logo=linkedin)](https://github.com/hrlpavan)
+[![Ecosystem](https://img.shields.io/badge/Ecosystem-HRL%20International%20Pvt.%20Ltd.-orange?style=for-the-badge)](https://github.com/hrlpavan/hrl-international-website-)
+[![Master Portfolio](https://img.shields.io/badge/Master%20Portfolio-31%20Projects-success?style=for-the-badge&logo=github)](https://github.com/hrlpavan/all-projects-portfolio)
+[![Streak Maintained](https://img.shields.io/badge/GitHub%20Streak-Active-brightgreen?style=for-the-badge&logo=githubactions)](https://github.com/hrlpavan)
+
+</div>
+
+---
+
+<div align="center">
+
+### 🏆 GitHub Profile Trophies
+<a href="https://github.com/hrlpavan">
+  <img src="https://github-profile-trophy.vercel.app/?username=hrlpavan&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="Pavan Kumar Sadashiv GitHub Trophies" />
+</a>
+
+</div>
+
+---
+
+> [!TIP]
+> ### 🌟 NEW FLAGSHIP RELEASE: MASTER PROJECTS PORTFOLIO (31+ PROJECTS)
+> **Comprehensive Centralized Engineering Catalog** — Complete directory and technical archive indexing all **31 software engines, autonomous AI frameworks, 3D mechanical simulations, DaVinci Resolve suites, and PropTech platforms** created by Pavan Kumar Sadashiv (HRL).
+> - 📂 **Master Repository**: [**github.com/hrlpavan/all-projects-portfolio**](https://github.com/hrlpavan/all-projects-portfolio)
+> - 📑 **Individual Deep-Dive Subfiles**: [**Explore All 31 Subfiles**](https://github.com/hrlpavan/all-projects-portfolio/tree/main/projects)
+
 ---
 
 > [!IMPORTANT]
@@ -23,6 +51,23 @@
 > **LocalAI Runtime (v1.0)** — Production-grade C++20 and CUDA on-device generative AI runtime engineered for **NVIDIA GPU workstations**, delivering **0.17 µs Paged KV-Cache allocation (0.00% fragmentation)**, **sub-5 µs CUDA Graph kernel replay**, **FP8 Ada Lovelace hardware acceleration**, and **1,538+ tokens/sec sustained local throughput**.
 > - **GitHub Repository**: [**github.com/hrlpavan/nvedia-project-by-hrl**](https://github.com/hrlpavan/nvedia-project-by-hrl)
 > - **Live Interactive Studio**: [**hrlpavan.github.io/nvedia-project-by-hrl/**](https://hrlpavan.github.io/nvedia-project-by-hrl/)
+
+---
+
+## 🎖️ GitHub Achievements & Milestones Showcase
+
+<div align="center">
+
+| Achievement | Badge | Milestone Description | Status |
+| :---: | :---: | :--- | :---: |
+| **Quickdraw** | <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="60" alt="Quickdraw"/> | Closed an issue or PR within 5 minutes of opening | **Unlocked** |
+| **YOLO** | <img src="https://github.githubassets.com/assets/yolo-default-be0bb92a0618.png" width="60" alt="YOLO"/> | Merged a pull request directly without code review | **Unlocked** |
+| **Pull Shark** | <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="60" alt="Pull Shark"/> | Opened pull requests that were successfully merged | **Active** |
+| **Pair Extraordinaire** | <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-89467657ea29.png" width="60" alt="Pair Extraordinaire"/> | Co-authored commits on a merged repository | **Active** |
+| **Starstruck** | <img src="https://github.githubassets.com/assets/starstruck-default-b6610abad518.png" width="60" alt="Starstruck"/> | Created high-impact public repositories receiving community stars | **In Progress** |
+| **Public Sponsor** | <img src="https://github.githubassets.com/assets/public-sponsor-default-3636f33ea4bc.png" width="60" alt="Public Sponsor"/> | Financially sponsored open-source maintainers via GitHub Sponsors | **Available** |
+
+</div>
 
 ---
 
@@ -52,17 +97,57 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
 
 ---
 
+## 📈 Live Activity & Contribution Telemetry
+
+<div align="center">
+
+<a href="https://github.com/hrlpavan">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hrlpavan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</a>
+<br/>
+<a href="https://github.com/hrlpavan">
+  <img src="https://github-readme-stats.vercel.app/api?username=hrlpavan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+</a>
+<a href="https://github.com/hrlpavan">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrlpavan&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</a>
+
+</div>
+
+---
+
+## 🛠️ Multi-Disciplinary Technology Stack
+
+<div align="center">
+
+| Domain | Technologies & Frameworks |
+| :--- | :--- |
+| **Low-Level & Hardware Acceleration** | `C++20` `NVIDIA CUDA` `Apple Metal (MSL)` `Rust` `Zig` `SIMD (AVX-512)` `POSIX IPC` |
+| **Artificial Intelligence & Agents** | `PyTorch` `Google Antigravity` `Hierarchical RL` `LLM Compilers (HRL)` `OpenAI Whisper` |
+| **3D Simulation & Audio DSP** | `WebGL` `Three.js` `Web Audio API` `Dual-Mic LMS Filtering` `GLSL Shaders` |
+| **Cinema & Video Automation** | `DaVinci Resolve 21 Studio API` `OpenFX` `Fusion Macro Shaders` `ACEScc 3D LUTs` |
+| **Cloud Analytics & Big Data** | `Databricks` `Apache Spark` `PySpark` `Delta Lake ACID` `Distributed SQL` |
+| **Enterprise Web & Platforms** | `TypeScript` `Next.js` `FastAPI` `Python 3.12` `HTML5/CSS3` `Docker` |
+
+</div>
+
+---
+
 ## 🚀 Flagship Production Systems & Research Repositories
 
-1. **[LocalAI Runtime for NVIDIA RTX/CUDA (`nvedia-project-by-hrl`)](https://github.com/hrlpavan/nvedia-project-by-hrl)**  
+1. **[Master Projects Portfolio (`all-projects-portfolio`)](https://github.com/hrlpavan/all-projects-portfolio)**  
+   The centralized showcase containing all 31 completed projects with dedicated architectural subfiles.
+2. **[LocalAI Runtime for NVIDIA RTX/CUDA (`nvedia-project-by-hrl`)](https://github.com/hrlpavan/nvedia-project-by-hrl)**  
    C++20/CUDA on-device inference runtime with atomic 0.17 µs Paged KV-Cache allocation and 1,538+ tokens/sec throughput.
-2. **[HRL Programming Language for LLMs (`hrl-lang`)](https://github.com/hrlpavan/hrl-lang)**  
+3. **[HRL Programming Language for LLMs (`hrl-lang`)](https://github.com/hrlpavan/hrl-lang)**  
    Verifiable DSL engineered for Large Language Models with FeUdal macro/micro planning ($C=8$) and reachability envelopes ($R_c(s)$).
-3. **[AI Cinematic Haze OpenFX Plugin](https://github.com/hrlpavan/hrl-international-website-)**  
+4. **[HRL V12 Engine 3D Simulation (`hrl-v12-engine`)](https://github.com/hrlpavan/hrl-v12-engine)**  
+   Interactive 3D WebGL 60° Quad-Cam 48-Valve V12 racing engine with real-time procedural Web Audio synthesis and analytical telemetry.
+5. **[AI Cinematic Haze OpenFX Plugin](https://github.com/hrlpavan/hrl-international-website-)**  
    DaVinci Resolve OFX neural depth atmospheric shader running locally on Apple Metal & NVIDIA CUDA with zero cloud lag.
-4. **[InvigiMatrix — Examination Optimization Platform](https://github.com/hrlpavan/exam-invigilation-dsa-app)**  
+6. **[InvigiMatrix — Examination Optimization Platform](https://github.com/hrlpavan/exam-invigilation-dsa-app)**  
    Full-stack examination solver powered by custom NP-hard CSP Backtracking and K-Means ($k=3$) dynamic anti-cheating clustering (*Live deployed @ SCEM*).
-5. **[OmniTransform AI & Neural Voice Studio](https://github.com/hrlpavan/omnitransform-ai-resources)**  
+7. **[OmniTransform AI & Neural Voice Studio](https://github.com/hrlpavan/omnitransform-ai-resources)**  
    Sub-75ms streaming ElevenLabs Multilingual v2 neural voice synthesis and Chladni acoustic resonance waveform visualizers.
 
 ---
