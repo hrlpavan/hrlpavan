@@ -133,7 +133,7 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
 
 ---
 
-## 🚀 Flagship Production Systems & Research Repositories
+##  Flagship Production Systems & Research Repositories
 
 1. **[Master Projects Portfolio (`all-projects-portfolio`)](https://github.com/hrlpavan/all-projects-portfolio)**  
    The centralized showcase containing all 31 completed projects with dedicated architectural subfiles.
