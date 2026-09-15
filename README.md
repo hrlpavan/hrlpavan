@@ -60,12 +60,12 @@
 
 | Achievement | Badge | Milestone Description | Status |
 | :---: | :---: | :--- | :---: |
-| **Quickdraw** | <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/achievements/quickdraw-default.png" width="60" alt="Quickdraw"/> | Closed an issue or PR within 5 minutes of opening | **Unlocked** |
-| **YOLO** | <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/achievements/yolo-default.png" width="60" alt="YOLO"/> | Merged a pull request directly without code review | **Unlocked** |
-| **Pull Shark** | <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/achievements/pull-shark-default.png" width="60" alt="Pull Shark"/> | Opened pull requests that were successfully merged | **Active** |
-| **Pair Extraordinaire** | <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/achievements/pair-extraordinaire-default.png" width="60" alt="Pair Extraordinaire"/> | Co-authored commits on a merged repository | **Active** |
-| **Starstruck** | <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/achievements/starstruck-default.png" width="60" alt="Starstruck"/> | Created high-impact public repositories receiving community stars | **In Progress** |
-| **Public Sponsor** | <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/achievements/public-sponsor-default.png" width="60" alt="Public Sponsor"/> | Financially sponsored open-source maintainers via GitHub Sponsors | **Available** |
+| **Quickdraw** | <img src="assets/achievements/quickdraw-default.png" width="60" alt="Quickdraw"/> | Closed an issue or PR within 5 minutes of opening | **Unlocked** |
+| **YOLO** | <img src="assets/achievements/yolo-default.png" width="60" alt="YOLO"/> | Merged a pull request directly without code review | **Unlocked** |
+| **Pull Shark** | <img src="assets/achievements/pull-shark-default.png" width="60" alt="Pull Shark"/> | Opened pull requests that were successfully merged | **Active** |
+| **Pair Extraordinaire** | <img src="assets/achievements/pair-extraordinaire-default.png" width="60" alt="Pair Extraordinaire"/> | Co-authored commits on a merged repository | **Active** |
+| **Starstruck** | <img src="assets/achievements/starstruck-default.png" width="60" alt="Starstruck"/> | Created high-impact public repositories receiving community stars | **In Progress** |
+| **Public Sponsor** | <img src="assets/achievements/public-sponsor-default.png" width="60" alt="Public Sponsor"/> | Financially sponsored open-source maintainers via GitHub Sponsors | **Available** |
 
 </div>
 
