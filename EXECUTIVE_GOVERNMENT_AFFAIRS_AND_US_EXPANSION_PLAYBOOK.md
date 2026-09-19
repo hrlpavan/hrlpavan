@@ -3,7 +3,7 @@
 **Entity**: HRL International Private Limited (India) & HRL International, Inc. (Delaware, USA)  
 **Executive Command**:
 * **Pavan Kumar Sadashiv** — Founder, Managing Director & AI Systems Chief Architect
-* **Samruddhi** — Chief Government Relations Officer (CGRO) & Director of Government Affairs  
+* **Samrudhi** — Chief Government Relations Officer (CGRO) & Director of Government Affairs  
 **Motto**: *"We Can Do Everything Related To Software Sector Without Any Excuses!"*  
 **Official Portal**: [hrl-brand-seo.vercel.app](https://hrl-brand-seo.vercel.app)  
 **Last Updated**: September 2026  
@@ -12,7 +12,7 @@
 
 ## 1. Executive Purpose & Joint Command Structure
 
-This Playbook serves as the joint operational blueprint for **Pavan Kumar Sadashiv** and **Samruddhi** to manage all governmental registrations, institutional grant acquisitions, regulatory compliances, and international entity establishment across two sovereign jurisdictions:
+This Playbook serves as the joint operational blueprint for **Pavan Kumar Sadashiv** and **Samrudhi** to manage all governmental registrations, institutional grant acquisitions, regulatory compliances, and international entity establishment across two sovereign jurisdictions:
 1. **The Republic of India** (Central Government Ministries & Government of Karnataka)
 2. **The United States of America** (State of Delaware, US Internal Revenue Service, and US Federal Programs)
 
@@ -20,7 +20,7 @@ This Playbook serves as the joint operational blueprint for **Pavan Kumar Sadash
 +--------------------------------------------------------------------------------------------------+
 |                              EXECUTIVE JOINT COMMAND RESPONSIBILITY                              |
 +-------------------------------------------------+------------------------------------------------+
-| PAVAN KUMAR SADASHIV (Founder & MD)             | SAMRUDDHI (Chief Government Relations Officer) |
+| PAVAN KUMAR SADASHIV (Founder & MD)             | SAMRUDHI (Chief Government Relations Officer) |
 +-------------------------------------------------+------------------------------------------------+
 | • Technical Architecture & Product Pipelines    | • Central & State Government Relations         |
 | • Patent Claims & Low-Level Source Code IP     | • Startup India (DPIIT) & SISFS Seed Grants    |
@@ -33,9 +33,9 @@ This Playbook serves as the joint operational blueprint for **Pavan Kumar Sadash
 
 ## 2. High-Security Operational Protocol (Zero-Leak Governance)
 
-Because government registrations and US incorporation involve highly confidential statutory documents (Aadhaar, PAN, Passports, Digital Signature Certificates (DSC), Board Resolutions, and Tax IDs), both Pavan and Samruddhi must strictly adhere to the following **Security Standard**:
+Because government registrations and US incorporation involve highly confidential statutory documents (Aadhaar, PAN, Passports, Digital Signature Certificates (DSC), Board Resolutions, and Tax IDs), both Pavan and Samrudhi must strictly adhere to the following **Security Standard**:
 
-1. **Dual-Authorization Rule**: No institutional filing, grant submission, or corporate document can be finalized without both Pavan and Samruddhi reviewing the submission draft.
+1. **Dual-Authorization Rule**: No institutional filing, grant submission, or corporate document can be finalized without both Pavan and Samrudhi reviewing the submission draft.
 2. **Encrypted Document Vault**: Never share raw government identity proofs, unredacted bank account statements, or DSC PINs over insecure platforms (e.g., standard WhatsApp chats). All official PDF files must be kept in the local offline vault or encrypted company drives.
 3. **Official Communications Only**: All government, incubator, and US attorney correspondence must originate strictly from the verified corporate organization address:
    `hrlinternationalprivatelimited@gmail.com` (or official `@hrlinternational.com` domain).
@@ -43,7 +43,7 @@ Because government registrations and US incorporation involve highly confidentia
 
 ---
 
-## 3. Track 1: Government of India & State Initiatives (Samruddhi's Direct Command)
+## 3. Track 1: Government of India & State Initiatives (Samrudhi's Direct Command)
 
 ### Milestone 1: Ministry of Corporate Affairs (MCA) Registration
 * **Form**: SPICe+ (Part A for Name Approval: `HRL International Private Limited`; Part B for Incorporation).
@@ -93,7 +93,7 @@ Because government registrations and US incorporation involve highly confidentia
 
 ---
 
-## 4. Track 2: United States Incorporation & Global Setup (Pavan & Samruddhi)
+## 4. Track 2: United States Incorporation & Global Setup (Pavan & Samrudhi)
 
 To attract global Silicon Valley capital (Y Combinator, Sequoia), contract with US enterprise clients, and distribute software globally without Indian banking cross-border hurdles, HRL International will establish a **Delaware C-Corporation** structure.
 
@@ -186,11 +186,11 @@ To ensure no copycats or competitors can infringe on HRL’s brand names or deep
 
 | Priority | Milestone | Primary Owner | Target Timeline |
 |:---:|:---|:---:|:---:|
-| 🟢 **P1** | Complete Startup Portal submission with Samruddhi added as CGRO | Pavan & Samruddhi | Immediate |
-| 🟢 **P1** | Finalize DPIIT Startup India application for 80-IAC tax exemption | Samruddhi | Week 1 |
-| 🟡 **P2** | Submit Karnataka ELEVATE grant proposal (Tier-2 Mangaluru Hub) | Samruddhi | Week 2 |
+| 🟢 **P1** | Complete Startup Portal submission with Samrudhi added as CGRO | Pavan & Samrudhi | Immediate |
+| 🟢 **P1** | Finalize DPIIT Startup India application for 80-IAC tax exemption | Samrudhi | Week 1 |
+| 🟡 **P2** | Submit Karnataka ELEVATE grant proposal (Tier-2 Mangaluru Hub) | Samrudhi | Week 2 |
 | 🟡 **P2** | Initiate Delaware C-Corp incorporation package (`HRL International, Inc.`) | Pavan | Week 3 |
-| 🔵 **P3** | File IRS Form SS-4 for US EIN and open Mercury USD account | Pavan & Samruddhi | Week 4 |
+| 🔵 **P3** | File IRS Form SS-4 for US EIN and open Mercury USD account | Pavan & Samrudhi | Week 4 |
 | 🔵 **P3** | File IRS Section 83(b) elections within 30-day window | Pavan | Post-Incorporation |
 
 ---
@@ -208,5 +208,5 @@ All detailed templates, draft articles, and official government filing packages 
 
 **BY JOINT ORDER OF EXECUTIVE COMMAND**  
 **Pavan Kumar Sadashiv** — Founder & Managing Director  
-**Samruddhi** — Chief Government Relations Officer  
+**Samrudhi** — Chief Government Relations Officer  
 *HRL International Private Limited (India) • HRL International, Inc. (Delaware, USA)*
