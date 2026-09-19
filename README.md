@@ -102,14 +102,18 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
 <div align="center">
 
 <a href="https://github.com/hrlpavan">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hrlpavan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=hrlpavan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </a>
 <br/>
 <a href="https://github.com/hrlpavan">
-  <img src="https://github-readme-stats.vercel.app/api?username=hrlpavan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=hrlpavan&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
 </a>
 <a href="https://github.com/hrlpavan">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrlpavan&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=hrlpavan&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</a>
+<br/><br/>
+<a href="https://github.com/hrlpavan">
+  <img src="https://ghchart.rshah.org/D1002D/hrlpavan" alt="Pavan's Contribution Graph" />
 </a>
 
 </div>
