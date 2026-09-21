@@ -10,6 +10,7 @@
 
 [![Chief Architect](https://img.shields.io/badge/Chief%20Architect-Pavan%20Kumar%20Sadashiv-0A66C2?style=for-the-badge&logo=linkedin)](https://github.com/hrlpavan)
 [![Ecosystem](https://img.shields.io/badge/Ecosystem-HRL%20International%20Pvt.%20Ltd.-orange?style=for-the-badge)](https://github.com/hrlpavan/hrl-international-website-)
+[![STPI Software Exporter](https://img.shields.io/badge/STPI%20MeitY-Software%20Exporter-blue?style=for-the-badge&logo=shield)](STPI_SOFTWARE_EXPORT_AND_SOFTEX_COMPLIANCE_DOSSIER.md)
 [![Master Portfolio](https://img.shields.io/badge/Master%20Portfolio-31%20Projects-success?style=for-the-badge&logo=github)](https://github.com/hrlpavan/all-projects-portfolio)
 [![Streak Maintained](https://img.shields.io/badge/GitHub%20Streak-Active-brightgreen?style=for-the-badge&logo=githubactions)](https://github.com/hrlpavan)
 
@@ -25,6 +26,14 @@
 </a>
 
 </div>
+
+> [!IMPORTANT]
+> ### 🏛️ OFFICIAL STATUTORY FILING: SOFTWARE TECHNOLOGY PARKS OF INDIA (STPI) & SOFTEX REGISTRATION
+> **Software Technology Parks of India (STPI / MeitY) Unit Registration & RBI Export Compliance:**  
+> HRL International Private Limited has initiated statutory registration under the **Software Technology Parks (STP / Non-STP) Scheme** administered by the Software Technology Parks of India (STPI Mangaluru Directorate, MeitY).
+> - **Dossier & Statutory Charter**: [**`STPI_SOFTWARE_EXPORT_AND_SOFTEX_COMPLIANCE_DOSSIER.md`**](STPI_SOFTWARE_EXPORT_AND_SOFTEX_COMPLIANCE_DOSSIER.md)
+> - **Regulatory Jurisdiction**: RBI / FEMA Foreign Exchange Inward Remittance Reconciliation (SOFTEX Forms) & EDPMS Settlement.
+> - **Sovereign Cross-Border Architecture**: Integrated software export pipeline between HRL International Private Limited (India) and HRL International, Inc. (Delaware C-Corp, USA) with 100% duty-free GPU hardware import provisions.
 
 ---
 

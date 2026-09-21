@@ -67,8 +67,13 @@
 
 ---
 
-### **Module 6: Central Master Index (1 Document)**
-26. `README.md` — Central documentation hub, navigation architecture, and execution guidelines.
+### **Module 6: Software Technology Parks of India (STPI) & Cross-Border Export (1 Document)**
+26. `STPI_SOFTWARE_EXPORT_AND_SOFTEX_COMPLIANCE_DOSSIER.md` — Software Technology Parks of India (STPI) Mangaluru unit registration, Softex RBI export declarations, EDPMS reconciliation, and duty-free hardware import protocols.
+
+---
+
+### **Module 7: Central Master Index (1 Document)**
+27. `README.md` — Central documentation hub, navigation architecture, and execution guidelines.
 
 ---
 
