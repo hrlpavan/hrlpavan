@@ -131,7 +131,7 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
 </a>
 <br/><br/>
 <a href="https://github.com/hrlpavan">
-  <img src="https://ghchart.rshah.org/D1002D/hrlpavan" alt="Pavan's Contribution Graph" />
+  <img src="https://ghchart.rshah.org/D1002D/hrlpavan?v=20260922" alt="Pavan's Contribution Graph" />
 </a>
 
 </div>
