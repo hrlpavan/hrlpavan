@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://github.com/hrlpavan">
-    <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/hrl-discord-animated-logo.svg" alt="HRL Animated Avatar" width="130" style="border-radius: 50%;" />
+  <a href="https://discord.com/shop#itemSkuId=1365410896196669480">
+    <img src="assets/hrl-darth-vader-avatar.gif" alt="Pavan Kumar Sadashiv - HRL x Darth Vader Arrives" width="135" height="135" style="border-radius: 50%; border: 2px solid #D1002D; box-shadow: 0 0 25px rgba(209, 0, 45, 0.6);" />
   </a>
   <h1>Pavan Kumar Sadashiv</h1>
   <p><strong>AI Systems Chief Architect | Tech Lead | Founder &amp; Managing Director</strong><br/>
@@ -160,6 +160,26 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
       </a>
       <br/><br/>
       🚀 <strong>Live Daily Engineering Stream</strong>: Real-time telemetry, commit aggregates, and multi-repo updates are continuously synchronized in <a href="https://github.com/hrlpavan/daily-project-updates"><strong><code>hrlpavan/daily-project-updates</code></strong></a>.
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- 3. Discord Collectible Profile Effect Spotlight: Darth Vader Arrives -->
+<table align="center">
+  <tr>
+    <td align="center" style="padding: 16px 30px; border: 1px solid rgba(209, 0, 45, 0.4); border-radius: 12px; background-color: #0b0e14; box-shadow: 0 0 25px rgba(209, 0, 45, 0.2);">
+      <a href="https://discord.com/shop#itemSkuId=1365410896196669480">
+        <img src="assets/darth-vader-arrives.gif" alt="Discord Profile Effect: Darth Vader Arrives" width="260" style="border-radius: 10px; border: 1px solid rgba(209, 0, 45, 0.5); box-shadow: 0 0 25px rgba(209, 0, 45, 0.4);" />
+      </a>
+      <br/><br/>
+      <a href="https://discord.com/shop#itemSkuId=1365410896196669480">
+        <img src="https://img.shields.io/badge/Discord%20Collectibles-Darth%20Vader%20Arrives-D1002D?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Shop Collectible" />
+      </a>
+      <br/><br/>
+      🌌 <strong>Official Discord Profile Effect</strong>: <em>"Escape is impossible."</em> — Darth Vader ignites his red lightsaber in a dark, smoky corridor.<br/>
+      <code>SKU: 1365410896196669480</code> &bull; <a href="https://discord.com/shop#itemSkuId=1365410896196669480"><strong>View in Discord Shop</strong></a>
     </td>
   </tr>
 </table>
