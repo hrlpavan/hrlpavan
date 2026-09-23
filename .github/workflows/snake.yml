@@ -1,0 +1,35 @@
+name: Generate Contribution Snake Animation
+
+on:
+  schedule:
+    # Run automatically every 24 hours at midnight UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Contribution Grid Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: hrlpavan
+          outputs: |
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ff4d7a&color_dots=#161b22,#ffb3c6,#ff668a,#ff3360,#D1002D
+
+      - name: Commit & Push Snake Assets
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "chore(telemetry): auto-update contribution snake animation [skip ci]"
+          add: "assets/*.svg"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

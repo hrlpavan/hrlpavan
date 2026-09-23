@@ -118,7 +118,17 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
 
 ## Live Activity & Contribution Telemetry
 
-<div align="center">
+<!-- 1. Cyberpunk Telemetry HUD Animation -->
+<a href="https://github.com/hrlpavan/daily-project-updates">
+  <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/telemetry-hud.svg" alt="HRL Autonomous Telemetry HUD" width="100%" />
+</a>
+<br/><br/>
+
+<!-- 2. Contribution Grid Snake Animation -->
+<a href="https://github.com/hrlpavan">
+  <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/github-contribution-grid-snake-dark.svg" alt="HRL Contribution Grid Snake" width="100%" />
+</a>
+<br/><br/>
 
 <a href="https://github.com/hrlpavan">
   <img src="https://streak-stats.demolab.com/?user=hrlpavan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
