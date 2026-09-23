@@ -1,7 +1,12 @@
-# Pavan Kumar Sadashiv
-**AI Systems Chief Architect | Tech Lead | Founder & Managing Director**  
-*HRL International Private Limited*  
-*"We Can Do Everything Related To Software Sector Without Any Excuses!"*  
+<div align="center">
+  <a href="https://github.com/hrlpavan">
+    <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/hrl-discord-animated-logo.svg" alt="HRL Animated Avatar" width="130" style="border-radius: 50%;" />
+  </a>
+  <h1>Pavan Kumar Sadashiv</h1>
+  <p><strong>AI Systems Chief Architect | Tech Lead | Founder &amp; Managing Director</strong><br/>
+  <em>HRL International Private Limited</em><br/>
+  <em>"We Can Do Everything Related To Software Sector Without Any Excuses!"</em></p>
+</div>  
 📍 Mangaluru, Karnataka, India (Beyond Bengaluru Tier-2 Hub)  
 🌐 **Official Portal**: [hrl-brand-seo.vercel.app](https://hrl-brand-seo.vercel.app) | **Main Web**: [hrlpavan.github.io/hrl-international-website-/](https://hrlpavan.github.io/hrl-international-website-/)  
 📧 **Official Inquiries**: `hrlinternationalprivatelimited@gmail.com`
@@ -130,28 +135,33 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
 </a>
 <br/><br/>
 
-<a href="https://github.com/hrlpavan">
-  <img src="https://streak-stats.demolab.com/?user=hrlpavan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</a>
-<br/>
-<a href="https://github.com/hrlpavan">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=hrlpavan&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-</a>
-<a href="https://github.com/hrlpavan">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=hrlpavan&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</a>
-<br/><br/>
-<a href="https://github.com/hrlpavan">
-  <img src="https://ghchart.rshah.org/D1002D/hrlpavan?v=20260923" alt="Pavan's Contribution Graph" />
-</a>
-<br/><br/>
-<a href="https://github.com/hrlpavan/daily-project-updates">
-  <img src="https://img.shields.io/badge/Daily%20Project%20Updates-Live%20Activity%20%26%20Contribution%20Telemetry-D1002D?style=for-the-badge&logo=githubactions&logoColor=white" alt="Daily Project Updates & Contribution Telemetry" />
-</a>
-<br/>
-<p>
-  🚀 <strong>Live Daily Engineering Stream</strong>: Real-time telemetry, commit aggregates, and multi-repo updates are continuously synchronized in <a href="https://github.com/hrlpavan/daily-project-updates"><strong><code>hrlpavan/daily-project-updates</code></strong></a>.
+<p align="center">
+  <a href="https://github.com/hrlpavan">
+    <img src="https://streak-stats.demolab.com/?user=hrlpavan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  </a>
 </p>
+<p align="center">
+  <a href="https://github.com/hrlpavan">
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=hrlpavan&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="150" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/hrlpavan">
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=hrlpavan&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="150" />
+  </a>
+</p>
+
+<!-- Accurately Placed Live Stream Info Box -->
+<table align="center">
+  <tr>
+    <td align="center" style="padding: 14px 28px; border: 1px solid rgba(209, 0, 45, 0.4); border-radius: 8px; background-color: #0e1017;">
+      <a href="https://github.com/hrlpavan/daily-project-updates">
+        <img src="https://img.shields.io/badge/Daily%20Project%20Updates-Live%20Activity%20%26%20Contribution%20Telemetry-D1002D?style=for-the-badge&logo=githubactions&logoColor=white" alt="Daily Project Updates & Contribution Telemetry" />
+      </a>
+      <br/><br/>
+      🚀 <strong>Live Daily Engineering Stream</strong>: Real-time telemetry, commit aggregates, and multi-repo updates are continuously synchronized in <a href="https://github.com/hrlpavan/daily-project-updates"><strong><code>hrlpavan/daily-project-updates</code></strong></a>.
+    </td>
+  </tr>
+</table>
 
 </div>
 
