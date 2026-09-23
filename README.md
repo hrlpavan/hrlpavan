@@ -1,11 +1,9 @@
 <div align="center">
   <a href="https://discord.com/shop#itemSkuId=1365410896196669480">
-    <img src="assets/hrl-darth-vader-avatar.gif" alt="Pavan Kumar Sadashiv - HRL x Darth Vader Arrives" width="135" height="135" style="border-radius: 50%; border: 2px solid #D1002D; box-shadow: 0 0 25px rgba(209, 0, 45, 0.6);" />
+    <img src="assets/hrl-darth-vader-banner.gif" alt="HRL International - Pavan Kumar Sadashiv" width="100%" style="border-radius: 12px; display: block;" />
   </a>
-  <h1>Pavan Kumar Sadashiv</h1>
-  <p><strong>AI Systems Chief Architect | Tech Lead | Founder &amp; Managing Director</strong><br/>
-  <em>HRL International Private Limited</em><br/>
-  <em>"We Can Do Everything Related To Software Sector Without Any Excuses!"</em></p>
+  <br/>
+  <em>"We Can Do Everything Related To Software Sector Without Any Excuses!"</em>
 </div>  
 📍 Mangaluru, Karnataka, India (Beyond Bengaluru Tier-2 Hub)  
 🌐 **Official Portal**: [hrl-brand-seo.vercel.app](https://hrl-brand-seo.vercel.app) | **Main Web**: [hrlpavan.github.io/hrl-international-website-/](https://hrlpavan.github.io/hrl-international-website-/)  
