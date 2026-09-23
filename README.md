@@ -12,6 +12,7 @@
 [![Ecosystem](https://img.shields.io/badge/Ecosystem-HRL%20International%20Pvt.%20Ltd.-orange?style=for-the-badge)](https://github.com/hrlpavan/hrl-international-website-)
 [![STPI Software Exporter](https://img.shields.io/badge/STPI%20MeitY-Software%20Exporter-blue?style=for-the-badge&logo=shield)](STPI_SOFTWARE_EXPORT_AND_SOFTEX_COMPLIANCE_DOSSIER.md)
 [![Master Portfolio](https://img.shields.io/badge/Master%20Portfolio-31%20Projects-success?style=for-the-badge&logo=github)](https://github.com/hrlpavan/all-projects-portfolio)
+[![Daily Updates](https://img.shields.io/badge/Daily%20Updates-Active%20Telemetry-D1002D?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/hrlpavan/daily-project-updates)
 [![Streak Maintained](https://img.shields.io/badge/GitHub%20Streak-Active-brightgreen?style=for-the-badge&logo=githubactions)](https://github.com/hrlpavan)
 
 </div>
@@ -131,8 +132,16 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
 </a>
 <br/><br/>
 <a href="https://github.com/hrlpavan">
-  <img src="https://ghchart.rshah.org/D1002D/hrlpavan?v=20260922" alt="Pavan's Contribution Graph" />
+  <img src="https://ghchart.rshah.org/D1002D/hrlpavan?v=20260923" alt="Pavan's Contribution Graph" />
 </a>
+<br/><br/>
+<a href="https://github.com/hrlpavan/daily-project-updates">
+  <img src="https://img.shields.io/badge/Daily%20Project%20Updates-Live%20Activity%20%26%20Contribution%20Telemetry-D1002D?style=for-the-badge&logo=githubactions&logoColor=white" alt="Daily Project Updates & Contribution Telemetry" />
+</a>
+<br/>
+<p>
+  🚀 <strong>Live Daily Engineering Stream</strong>: Real-time telemetry, commit aggregates, and multi-repo updates are continuously synchronized in <a href="https://github.com/hrlpavan/daily-project-updates"><strong><code>hrlpavan/daily-project-updates</code></strong></a>.
+</p>
 
 </div>
 
@@ -173,6 +182,8 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
    Full-stack examination solver powered by custom NP-hard CSP Backtracking and K-Means ($k=3$) dynamic anti-cheating clustering (*Live deployed @ SCEM*).
 8. **[OmniTransform AI & Neural Voice Studio](https://github.com/hrlpavan/omnitransform-ai-resources)**  
    Sub-75ms streaming ElevenLabs Multilingual v2 neural voice synthesis and Chladni acoustic resonance waveform visualizers.
+9. **[Daily Project Updates & Engineering Log (`daily-project-updates`)](https://github.com/hrlpavan/daily-project-updates)**  
+   Centralized daily engineering record, automated commit aggregation, and multi-repo telemetry tracking across all 54+ active HRL International systems.
 
 ---
 
