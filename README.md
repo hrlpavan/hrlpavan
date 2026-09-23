@@ -84,6 +84,7 @@
 
 | Achievement | Badge | Milestone Description | Status |
 | :---: | :---: | :--- | :---: |
+| **Galaxy Brain** | <img src="assets/achievements/galaxy-brain-default.png" width="60" alt="Galaxy Brain"/> | Answered discussions with accepted solutions | **Unlocked** |
 | **Quickdraw** | <img src="assets/achievements/quickdraw-default.png" width="60" alt="Quickdraw"/> | Closed an issue or PR within 5 minutes of opening | **Unlocked** |
 | **YOLO** | <img src="assets/achievements/yolo-default.png" width="60" alt="YOLO"/> | Merged a pull request directly without code review | **Unlocked** |
 | **Pull Shark** | <img src="assets/achievements/pull-shark-default.png" width="60" alt="Pull Shark"/> | Opened pull requests that were successfully merged | **Active** |
