@@ -6,7 +6,7 @@
   <em>"We Can Do Everything Related To Software Sector Without Any Excuses!"</em>
 </div>  
 📍 Mangaluru, Karnataka, India (Beyond Bengaluru Tier-2 Hub)  
-🌐 **Official Portal**: [hrl-brand-seo.vercel.app](https://hrl-brand-seo.vercel.app) | **Main Web**: [hrlpavan.github.io/hrl-international-website-/](https://hrlpavan.github.io/hrl-international-website-/)  
+ **Official Portal**: [hrl-brand-seo.vercel.app](https://hrl-brand-seo.vercel.app) | **Main Web**: [hrlpavan.github.io/hrl-international-website-/](https://hrlpavan.github.io/hrl-international-website-/)  
 📧 **Official Inquiries**: `hrlinternationalprivatelimited@gmail.com`
 
 <div align="center">
