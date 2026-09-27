@@ -13,6 +13,7 @@
 
 [![Chief Architect](https://img.shields.io/badge/Chief%20Architect-Pavan%20Kumar%20Sadashiv-0A66C2?style=for-the-badge&logo=linkedin)](https://github.com/hrlpavan)
 [![Ecosystem](https://img.shields.io/badge/Ecosystem-HRL%20International%20Pvt.%20Ltd.-orange?style=for-the-badge)](https://github.com/hrlpavan/hrl-international-website-)
+[![Corporate Charter](https://img.shields.io/badge/Corporate%20Charter-Public%20Governance-purple?style=for-the-badge&logo=gitbook)](https://github.com/hrlpavan/HRL-INTERNATIONAL-PVT.LTD.-FILES)
 [![STPI Software Exporter](https://img.shields.io/badge/STPI%20MeitY-Software%20Exporter-blue?style=for-the-badge&logo=shield)](STPI_SOFTWARE_EXPORT_AND_SOFTEX_COMPLIANCE_DOSSIER.md)
 [![Master Portfolio](https://img.shields.io/badge/Master%20Portfolio-31%20Projects-success?style=for-the-badge&logo=github)](https://github.com/hrlpavan/all-projects-portfolio)
 [![Daily Updates](https://img.shields.io/badge/Daily%20Updates-Active%20Telemetry-D1002D?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/hrlpavan/daily-project-updates)
