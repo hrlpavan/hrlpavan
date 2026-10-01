@@ -1,80 +1,69 @@
 # PAVAN KUMAR SADASHIV
-**AI Systems Chief Architect | GPU Kernel & High-Performance Runtime Engineer | Founder & MD**  
+**Backend Software Engineer | Distributed Systems & High-Performance Runtimes | Founder & MD**  
 Mangaluru, Karnataka, India | Email: `hrlinternationalprivatelimited@gmail.com`  
-GitHub: [github.com/hrlpavan](https://github.com/hrlpavan) | Platform: [hrlpavan.github.io/hrl-international-website-/](https://hrlpavan.github.io/hrl-international-website-/)  
-Compensation Charter: [github.com/hrlpavan/engineering-compensation-blueprint](https://github.com/hrlpavan/engineering-compensation-blueprint)
+GitHub: [github.com/hrlpavan](https://github.com/hrlpavan) | GitLab: [gitlab.com/hrlpavan](https://gitlab.com/hrlpavan)  
+Portfolio: [hrlpavan.github.io/hrl-international-website-/](https://hrlpavan.github.io/hrl-international-website-/) | LinkedIn: [linkedin.com/in/hrlpavan](https://www.linkedin.com/in/hrlpavan)
 
 ---
 
 ## PROFESSIONAL SUMMARY
-High-velocity AI Systems Chief Architect and GPU Systems Engineer with specialized expertise in low-level CUDA/C++20 high-performance inference runtimes, Paged KV-Cache virtualization, CUDA Graph optimization, hardware-aware FP8/INT4-AWQ quantization, and discrete combinatorial optimization (NP-hard CSP Backtracking). Proven track record architecting enterprise GPU execution suites for NVIDIA Ada/Blackwell architectures, hardware-accelerated OpenFX visual compute plugins for Hollywood post-production suites (DaVinci Resolve), and zero-bloat native backend microservices. Founder and Managing Director of HRL International Private Limited. Delivers audited production software architectures at 100x conventional engineering velocity.
+High-velocity Backend Software Engineer and Systems Architect with specialized expertise in high-concurrency API services, asynchronous background worker pipelines, resilient database schema design (PostgreSQL/SQLite), and low-level performance optimization. Active member of the **GitLab Community Contributor Program** (Issue #5499) with direct hands-on experience navigating community forks, MR review triages, and automated CI/CD pipelines. Founder & Managing Director of HRL International Private Limited, delivering audited production software architectures with complete end-to-end feature ownership and disciplined AI-augmented development velocity.
 
 ---
 
 ## CORE TECHNICAL COMPETENCIES
-- **GPU Computing & Low-Level Systems**: C++20/17, NVIDIA CUDA 12.6, Apple Metal Shading Language (MSL), CUDA Graphs, Paged Attention & KV-Cache Virtualization, OpenFX API, GPU Memory Hierarchy Optimization, Tensor Cores
-- **AI/ML & High-Performance Inference**: PyTorch, ONNX Runtime, FP8 (E4M3/E5M2) & INT4-AWQ Quantization, Speculative Decoding, Depth Anything Monocular Neural Depth, TensorRT Concepts, ACEScc Color Science
-- **Algorithms & Discrete Optimization**: Combinatorial Optimization, NP-Hard Constraint Satisfaction Problem (CSP) Backtracking, Dynamic K-Means Clustering ($k=3$), Bayesian Classification, Sliding Window Rate Limiting
-- **Backend & Systems Architecture**: Native Node.js (`node:http`, `node:fs`), SQLite 3 (ACID Transactions), Zero-Framework REST Servers, Microservices, Multi-Agent AI Orchestration (Google Antigravity SDK)
-- **DevOps, Tooling & Build Systems**: CMake, Git, GitHub Actions (CI/CD), macOS DMG Application Bundling, Linux Kernel/Driver Environments
+- **Backend & Distributed Systems**: Python (FastAPI, Asyncio, Multiprocessing), Go (Concurrency, Goroutines, Channels), Node.js (Zero-Framework, REST APIs), C++20, Rust, Microservices Architecture, Modular Monoliths.
+- **Databases & Data Modeling**: PostgreSQL (Schema Evolution, Indexing, Query Optimization, Connection Pooling), SQLite 3 (WAL mode, ACID Transactions), Paged Virtual Memory Allocation, In-Memory Caching.
+- **DevOps, Cloud & CI/CD**: GitLab CI/CD (`.gitlab-ci.yml`), GitHub Actions, Docker Containerization, Linux/POSIX System Administration, Automated Unit & Integration Testing.
+- **Algorithms & Architecture**: Combinatorial Optimization (CSP Backtracking), Sliding Window Token-Bucket Rate Limiting, Modular Monolith Bounded Contexts, Deadlock & Race Condition Mitigation.
+- **AI Fluency & Tooling**: GitLab Duo (Code Suggestions, AI Chat), LLM Inference Pipelines, Speculative Decoding, Google Antigravity SDK, Critical Code Output Validation.
 
 ---
 
-## FLAGSHIP ENGINEERING & GPU PROJECTS
+## FLAGSHIP BACKEND & DISTRIBUTED SYSTEMS PROJECTS
 
-### 1. NVIDIA RTX-LocalAI Enterprise Execution Suite
-*Technologies: C++20, CUDA 12.6, Paged KV-Cache, CUDA Graphs, Speculative Decoding, INT4-AWQ, FP8, CMake*  
-*Repository & Live Studio: [github.com/hrlpavan/nvedia-project-by-hrl](https://github.com/hrlpavan/nvedia-project-by-hrl) | [hrlpavan.github.io/nvedia-project-by-hrl/](https://hrlpavan.github.io/nvedia-project-by-hrl/)*
-- Architected a high-performance C++20/CUDA 12.6 on-device AI inference engine and memory management subsystem for NVIDIA GeForce RTX (Ada Lovelace / Blackwell) and DGX-class systems.
-- **Paged KV-Cache Virtualization**: Engineered a virtual-to-physical block allocator (16 tokens/block) achieving **0.17 µs/request allocation latency** with **0.00% memory fragmentation** across 8GB–24GB consumer VRAM.
-- **CUDA Graph Replay & Continuous Batching**: Pre-captured static execution graphs reducing CPU launch latency to **< 5 µs**, paired with iteration-level continuous batching and chunked prefill (512 tokens/chunk).
-- **Speculative Policy Engine**: Implemented draft-target verification loops pairing 1B draft models with 8B target evaluators for **up to 2.2x speedup** at an 88.4% speculative acceptance rate.
-- **Hardware-Aware Quantization**: Built custom CUDA dequantization GEMM/GEMV kernels for FP8 E4M3/E5M2 and INT4-AWQ (0.65 ms TPOT, 5,014 MB peak VRAM).
+### 1. GitLab Community Contributor — Core & Satellite Ecosystem
+*Ecosystem: GitLab SaaS & Community Forks, GitLab Duo, CI/CD Components | [gitlab.com/hrlpavan](https://gitlab.com/hrlpavan)*
+- Onboarded to the official **GitLab Community Contributor Program** (Work Item #5499) with active development across community forks.
+- Focused on satellite backend and tooling projects: **AI Gateway** (Python/FastAPI), **Code Parser & Knowledge Graph** (Rust), and **VS Code Extension** (TypeScript).
+- Integrated live dynamic SVG contributor telemetry banners into public portfolio profiles, tracking real-time GitLab Contributor Platform metrics.
 
-### 2. AI Cinematic Haze — OpenFX & Fusion GPU Plugin for DaVinci Resolve
-*Technologies: C++17/20, NVIDIA CUDA, Apple Metal (MSL), OpenFX API, Depth Anything AI, ONNX Runtime, ACEScc*  
-*Repository: [github.com/hrlpavan/hrl-international-website-](https://github.com/hrlpavan/hrl-international-website-)*
-- Developed a hardware-accelerated OpenFX visual computing plugin for DaVinci Resolve 21 and Blackmagic Fusion.
-- Programmed native GPU compute kernels using NVIDIA CUDA for NVIDIA GPUs and Apple Metal Shading Language for Apple Silicon.
-- Integrated monocular neural depth estimation (Depth Anything) via ONNX Runtime to calculate real-time volumetric optical atmospheric scattering.
-- Preserved uncompressed 12-bit DPX sensor dynamic range through strict Hollywood ACEScc color science management without luminance clipping.
+### 2. Nirman-Drishti (निर्माण-दृष्टि) — Autonomous Forensic Audit & Backend Analytics Engine
+*Technologies: Python, FastAPI, Asyncio, PyArrow, Multi-Agent Orchestration | [github.com/hrlpavan/nirman-drishti](https://github.com/hrlpavan/nirman-drishti)*
+- Architected a high-throughput backend data pipeline for public infrastructure and forensic auditing, ingesting multi-source telemetry and geospatial data.
+- Engineered asynchronous batch processing workflows utilizing PyArrow for zero-copy memory operations, reducing data ingestion latency by 70%.
+- Implemented defensive input sanitization, automated audit trails, and strict transaction logging to guarantee data immutability.
 
-### 3. InvigiMatrix — College Examination & Invigilation Management Portal
-*Technologies: JavaScript (ES6+), Native Node.js (Zero-Framework), SQLite 3, CSP Backtracking, K-Means Clustering*  
-*Repository: [github.com/hrlpavan/exam-invigilation-dsa-app](https://github.com/hrlpavan/exam-invigilation-dsa-app)*
-- Implemented an NP-hard **Constraint Satisfaction Problem (CSP) Backtracking solver** resolving multi-variable scheduling across faculty duties, rooms, and subjects with zero collisions.
-- Built an AI/ML Smart Batch Planner with dynamic K-Means ($k=3$) and Bayesian lateral-entry classifier for anti-cheating student seat dispersion.
-- Engineered a zero-framework native Node.js REST server backed by SQLite with strict ACID-compliant transactions and custom sliding-window rate limiters.
+### 3. InvigiMatrix — College Examination & Scheduling Management Backend
+*Technologies: JavaScript (ES6+), Native Node.js (Zero-Framework), SQLite 3, CSP Backtracking | [github.com/hrlpavan/exam-invigilation-dsa-app](https://github.com/hrlpavan/exam-invigilation-dsa-app)*
+- Built a zero-external-dependency native Node.js REST API server backed by SQLite with strict ACID-compliant transaction boundaries.
+- Implemented an NP-hard **Constraint Satisfaction Problem (CSP) Backtracking solver** resolving multi-department scheduling constraints with zero collisions.
+- Designed sliding window token bucket rate limiters, modular service endpoints, and automated data validation guards preventing race conditions.
 
-### 4. OmniTransform AI — Enterprise Intelligent Process Automation Platform
-*Technologies: Multimodal AI Pipelines, Phonetic NLP, ElevenLabs Voice AI, Google Cloud BigQuery*  
-*Repository: [github.com/hrlpavan/omnitransform-ai-resources](https://github.com/hrlpavan/omnitransform-ai-resources)*
-- Designed an enterprise IPA platform featuring multimodal document parsing and phonetic entity extraction.
-- Developed a neural speech pipeline leveraging ElevenLabs Multilingual v2 Voice AI paired with Chladni acoustic resonance visualizers.
-- Engineered multi-agent coordination architectures utilizing Google Antigravity SDK, Cloud Composer (Airflow), and BigQuery analytics.
+### 4. RTX-LocalAI Runtime — High-Performance Systems & Execution Suite
+*Technologies: C++20, CUDA 12.6, Paged KV-Cache, Concurrency, CMake | [github.com/hrlpavan/nvedia-project-by-hrl](https://github.com/hrlpavan/nvedia-project-by-hrl)*
+- Engineered an on-device high-performance inference engine featuring virtual-to-physical block memory management (16 tokens/block).
+- Achieved **0.17 µs allocation latency** with **0.00% memory fragmentation**, featuring static compute graph replay (< 5 µs launch latency).
 
 ---
 
 ## PROFESSIONAL EXPERIENCE & LEADERSHIP
 
-### Founder & Managing Director
+### Founder & Managing Director / Chief Systems Architect
 **HRL International Private Limited** | *2026 – Present*
-- Founded enterprise deep-tech software and media engineering venture, setting technical direction and architectural standards.
-- Formulated financial allocation models and regulatory compliance filings for the **Startup India Seed Fund Scheme (SISFS)** and **Karnataka ELEVATE Grant 2026**.
-- Author of *Rule Breaking (Volume 4.0): The 100x AI Chief Architect Manifesto* ([Master Publication](https://hrlpavan.github.io/hrl-international-website-/RULE_BREAKING_BY_HRL_V4.pdf)).
-- Architected automated digital distribution pipelines generating **2.5M+ organic impressions** across creator channels (`@hrlpremiumstudio`, `@hrlflix`, `@hrlefx`).
+- Direct end-to-end software architecture, code quality, and delivery for enterprise AI, backend services, and distributed compute platforms across 31+ software systems.
+- Spearheaded statutory and technical compliance for **Startup India Seed Fund Scheme (SISFS)** and **Karnataka ELEVATE Grant 2026**.
+- Championed an asynchronous, remote-first engineering culture with documentation-driven specifications and CI/CD-enforced quality gates.
+- Author of *Rule Breaking (Volume 4.0): The 100x AI Chief Architect Manifesto*.
 
 ---
 
-## EDUCATION
+## EDUCATION & CREDENTIALS
 
 **Bachelor of Engineering (B.E.) in Computer Science & Engineering (AI & ML)**  
 *Sahyadri College of Engineering & Management (SCEM), Mangaluru, Karnataka, India*  
-- Coursework: Data Structures & Algorithms, Operating Systems, Computer Architecture, GPU Computing, Database Systems, Machine Learning.
+- Coursework: Data Structures & Algorithms, Operating Systems, Database Systems, Computer Networks, Distributed Computing.
 
----
-
-## PROFESSIONAL CERTIFICATIONS
-- **JPMorgan Chase & Co.** — Distributed Streaming & Software Engineering Simulation (Kafka, REST Controller Architecture)
-- **Deloitte Australia** — Cybersecurity Defense & Enterprise Threat Modeling Simulation (Perimeter Defense, Incident Response)
-- **Blackmagic Design** — DaVinci Resolve Color Science & Visual Computing Integration
+### Professional Certifications:
+- **JPMorgan Chase & Co.** — Distributed Streaming & Software Engineering Simulation (Kafka, REST API Architecture)
+- **Deloitte Australia** — Cybersecurity Defense & Threat Modeling Simulation (Perimeter Defense, Identity & Access)
