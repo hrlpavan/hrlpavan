@@ -30,6 +30,13 @@
   <img src="https://github-profile-trophy.vercel.app/?username=hrlpavan&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="Pavan Kumar Sadashiv GitHub Trophies" />
 </a>
 
+<br/><br/>
+
+### 🦊 Official GitLab Community Contributor Stats
+<a href="https://contributors.gitlab.com/users/hrlpavan">
+  <img src="https://contributors.gitlab.com/users/hrlpavan/banner.svg" alt="GitLab Contributor Stats" width="840" />
+</a>
+
 </div>
 
 > [!IMPORTANT]
