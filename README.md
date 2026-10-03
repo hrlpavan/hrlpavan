@@ -228,7 +228,7 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
 ### 🔧 Tech Stack & Tools
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,py,flask,fastapi,c,cpp,rust,mongodb,mysql,postgres,git,github,docker,kubernetes,aws,azure,linux,tailwind" alt="Tech Stack & Tools" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,py,flask,fastapi,ruby,lua,swift,c,cpp,cmake,rust,apple,linux,redhat,docker,kubernetes,aws,azure,mongodb,mysql,postgres,git,github,gitlab,discord,linkedin,md,tailwind" alt="Tech Stack & Tools" />
   </a>
 </p>
 
@@ -236,12 +236,12 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Low-Level & Hardware Acceleration** | `C++20` `NVIDIA CUDA` `Apple Metal (MSL)` `Rust` `Zig` `SIMD (AVX-512)` `POSIX IPC` |
+| **Low-Level & Hardware Acceleration** | `C++20` `NVIDIA CUDA` `Apple Metal (MSL)` `Swift` `CMake` `Rust` `Zig` `SIMD (AVX-512)` `POSIX IPC` |
 | **Artificial Intelligence & Agents** | `PyTorch` `Google Antigravity` `Hierarchical RL` `LLM Compilers (HRL)` `OpenAI Whisper` |
 | **3D Simulation & Audio DSP** | `WebGL` `Three.js` `Web Audio API` `Dual-Mic LMS Filtering` `GLSL Shaders` |
 | **Cinema & Video Automation** | `DaVinci Resolve 21 Studio API` `OpenFX` `Fusion Macro Shaders` `ACEScc 3D LUTs` |
 | **Cloud Analytics & Big Data** | `Databricks` `Apache Spark` `PySpark` `Delta Lake ACID` `Distributed SQL` |
-| **Enterprise Web & Platforms** | `TypeScript` `Next.js` `FastAPI` `Python 3.12` `HTML5/CSS3` `Docker` |
+| **Enterprise Web, OS & DevOps** | `TypeScript` `Next.js` `FastAPI` `Python 3.12` `Ruby` `Lua` `Red Hat (RHEL)` `Linux` `Docker` `GitLab` |
 
 </div>
 
