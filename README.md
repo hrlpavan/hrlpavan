@@ -45,6 +45,11 @@
       <h4>🚀 Active GitLab Community Contributions</h4>
       <ul>
         <li>
+          <strong><a href="https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/7251">AI Gateway !7251</a></strong> — <em>Add Gemini 4 Argon to model registry & lifecycle</em><br/>
+          <span>Fixes <a href="https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/work_items/3001">Issue #3001</a>. Registered Google's next-gen Gemini 4 Argon (<code>gemini_4_argon_vertex</code>) with 1M context tokens, 64k max tokens, and pricing indicators in <code>models.yml</code> and <code>unit_primitives.yml</code>. 100% passed all 24 CI jobs across unit tests, linters, and container builds.</span>
+        </li>
+        <br/>
+        <li>
           <strong><a href="https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/9851">Omnibus GitLab !9851</a></strong> — <em>Document Mattermost self-signed certificate handling in Docker</em><br/>
           <span>Fixes <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/-/work_items/841">Issue #841</a>. Resolved container CA bundle validation (<code>x509: certificate signed by unknown authority</code>) for Go/Mattermost integration with Docker-based GitLab instances. Fully passed Vale, Markdownlint, Lychee, Hugo, and Danger bot checks.</span>
         </li>
