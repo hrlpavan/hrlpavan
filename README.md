@@ -99,8 +99,7 @@
 > HRL International Private Limited has officially published its comprehensive **Public IP Vault, Trademark Classification (Classes 9, 38, 41, 42), Copyright Doctrine, and Statutory DMCA Takedown Policy (17 U.S.C. § 512)**.
 > - 🌐 **Interactive Legal Web Portal**: [**`hrlpavan.github.io/hrl-international-website-/legal.html`**](https://hrlpavan.github.io/hrl-international-website-/legal.html)
 > - 📄 **Download Official Legal Charter (PDF)**: [**`HRL_International_IP_Trademark_DMCA_Charter.pdf`**](https://github.com/hrlpavan/hrlpavan/blob/main/pdfs/HRL_International_IP_Trademark_DMCA_Charter.pdf)
-> - ⚖️ **Statutory Notice**: All projects are protected under **Central & State Government Innovation Initiatives** (Startup India SISFS & Karnataka ELEVATE). Unlawful piracy, algorithm scraping, brand passing-off, or academic cyber-ragging triggers **mandatory First Information Report (FIR) criminal proceedings (BNS 2023 / IT Act / Anti-Ragging Act 1998)** and **multi-crore civil damage suits**.
-
+> - ⚖️ **Statutory Notice**: All projects are protected under **Central & State Government Innovation Initiatives** (Startup India SISFS & Karnataka ELEVATE). Unlawful piracy, algorithm scraping, brand passing-off, or academic cyber-ragging triggers **mandatory First Information Report (FIR) criminal proceedings (BNS 2023 / IT Act / Anti-Ragging Act 1998)** and **multi-crore civil damage suits**.\n
 ---
 
 > [!NOTE]
@@ -230,6 +229,17 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,py,flask,fastapi,ruby,lua,swift,c,cpp,cmake,rust,apple,linux,redhat,docker,kubernetes,aws,azure,mongodb,mysql,postgres,git,github,gitlab,discord,linkedin,md,tailwind" alt="Tech Stack & Tools" />
   </a>
+  <br/>
+  <!-- Contributed Skill Icons: tandpfun/skill-icons#1803 -->
+  <a href="https://github.com/tandpfun/skill-icons/pull/1803" title="DaVinci Resolve Studio">
+    <img src="assets/icons/DaVinciResolve-Dark.svg" height="48" alt="DaVinci Resolve" />
+  </a>
+  <a href="https://github.com/tandpfun/skill-icons/pull/1803" title="Google Antigravity">
+    <img src="assets/icons/Antigravity-Dark.svg" height="48" alt="Google Antigravity" />
+  </a>
+  <a href="https://github.com/tandpfun/skill-icons/pull/1803" title="UiPath Studio & Automation Cloud">
+    <img src="assets/icons/UiPath-Dark.svg" height="48" alt="UiPath" />
+  </a>
 </p>
 
 <br/>
@@ -241,7 +251,7 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
 | **3D Simulation & Audio DSP** | `WebGL` `Three.js` `Web Audio API` `Dual-Mic LMS Filtering` `GLSL Shaders` |
 | **Cinema & Video Automation** | `DaVinci Resolve 21 Studio API` `OpenFX` `Fusion Macro Shaders` `ACEScc 3D LUTs` |
 | **Cloud Analytics & Big Data** | `Databricks` `Apache Spark` `PySpark` `Delta Lake ACID` `Distributed SQL` |
-| **Enterprise Web, OS & DevOps** | `TypeScript` `Next.js` `FastAPI` `Python 3.12` `Ruby` `Lua` `Red Hat (RHEL)` `Linux` `Docker` `GitLab` |
+| **Enterprise Web, OS & DevOps** | `TypeScript` `Next.js` `FastAPI` `Python 3.12` `UiPath Studio & Automation Cloud` `Ruby` `Lua` `Red Hat (RHEL)` `Linux` `Docker` `GitLab` |
 
 </div>
 
