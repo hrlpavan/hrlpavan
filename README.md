@@ -220,6 +220,15 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
 
 <div align="center">
 
+### 🔧 Tech Stack & Tools
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,py,flask,fastapi,c,cpp,rust,mongodb,mysql,postgres,git,github,docker,kubernetes,aws,azure,linux,tailwind" alt="Tech Stack & Tools" />
+  </a>
+</p>
+
+<br/>
+
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
 | **Low-Level & Hardware Acceleration** | `C++20` `NVIDIA CUDA` `Apple Metal (MSL)` `Rust` `Zig` `SIMD (AVX-512)` `POSIX IPC` |
