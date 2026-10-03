@@ -37,6 +37,28 @@
   <img src="https://contributors.gitlab.com/users/hrlpavan/banner.svg" alt="GitLab Contributor Stats" width="840" />
 </a>
 
+<br/><br/>
+
+<table align="center" width="100%">
+  <tr>
+    <td align="left" style="padding: 16px; border: 1px solid rgba(226, 67, 41, 0.4); border-radius: 8px; background-color: #0d1117;">
+      <h4>🚀 Active GitLab Community Contributions</h4>
+      <ul>
+        <li>
+          <strong><a href="https://gitlab.com/gitlab-org/omnibus-gitlab/-/merge_requests/9851">Omnibus GitLab !9851</a></strong> — <em>Document Mattermost self-signed certificate handling in Docker</em><br/>
+          <span>Fixes <a href="https://gitlab.com/gitlab-org/omnibus-gitlab/-/work_items/841">Issue #841</a>. Resolved container CA bundle validation (<code>x509: certificate signed by unknown authority</code>) for Go/Mattermost integration with Docker-based GitLab instances. Fully passed Vale, Markdownlint, Lychee, Hugo, and Danger bot checks.</span>
+        </li>
+        <br/>
+        <li>
+          <strong><a href="https://gitlab.com/gitlab-org/gitlab/-/merge_requests/259119">GitLab Core !259119</a></strong> — <em>Add enum constraint to search scope parameter in MCP Server JSON schema</em><br/>
+          <span>Fixes <a href="https://gitlab.com/gitlab-org/gitlab/-/work_items/595159">Issue #595159</a>. Enforces schema validation across CE/EE search services for autonomous AI agents (GitLab Duo, Claude Desktop, Antigravity). Passed all RuboCop and predictive RSpec suites.</span>
+        </li>
+      </ul>
+      <p align="right"><a href="https://contributors.gitlab.com/users/hrlpavan"><strong>View Contributor Profile on GitLab →</strong></a></p>
+    </td>
+  </tr>
+</table>
+
 </div>
 
 > [!IMPORTANT]
