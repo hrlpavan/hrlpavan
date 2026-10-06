@@ -15,7 +15,7 @@
 [![Ecosystem](https://img.shields.io/badge/Ecosystem-HRL%20International%20Pvt.%20Ltd.-orange?style=for-the-badge)](https://github.com/hrlpavan/hrl-international-website-)
 [![Corporate Charter](https://img.shields.io/badge/Corporate%20Charter-Public%20Governance-purple?style=for-the-badge&logo=gitbook)](https://github.com/hrlpavan/HRL-INTERNATIONAL-PVT.LTD.-FILES)
 [![STPI Software Exporter](https://img.shields.io/badge/STPI%20MeitY-Software%20Exporter-blue?style=for-the-badge&logo=shield)](STPI_SOFTWARE_EXPORT_AND_SOFTEX_COMPLIANCE_DOSSIER.md)
-[![Master Portfolio](https://img.shields.io/badge/Master%20Portfolio-31%20Projects-success?style=for-the-badge&logo=github)](https://github.com/hrlpavan/all-projects-portfolio)
+[![Master Portfolio](https://img.shields.io/badge/Master%20Portfolio-52%20Projects-success?style=for-the-badge&logo=github)](https://github.com/hrlpavan/all-projects-portfolio)
 [![Daily Updates](https://img.shields.io/badge/Daily%20Updates-Active%20Telemetry-D1002D?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/hrlpavan/daily-project-updates)
 [![Streak Maintained](https://img.shields.io/badge/GitHub%20Streak-Active-brightgreen?style=for-the-badge&logo=githubactions)](https://github.com/hrlpavan)
 
@@ -86,10 +86,10 @@
 ---
 
 > [!TIP]
-> ### 🌟 NEW FLAGSHIP RELEASE: MASTER PROJECTS PORTFOLIO (31+ PROJECTS)
-> **Comprehensive Centralized Engineering Catalog** — Complete directory and technical archive indexing all **31 software engines, autonomous AI frameworks, 3D mechanical simulations, DaVinci Resolve suites, and PropTech platforms** created by Pavan Kumar Sadashiv (HRL).
+> ### 🌟 NEW FLAGSHIP RELEASE: MASTER PROJECTS PORTFOLIO (52 PROJECTS — GITHUB × GITLAB)
+> **Comprehensive Centralized Engineering Catalog** — Complete directory and technical archive indexing all **52 software engines, autonomous AI frameworks, 3D mechanical simulations, DaVinci Resolve suites, and PropTech platforms** created by Pavan Kumar Sadashiv (HRL).
 > - 📂 **Master Repository**: [**github.com/hrlpavan/all-projects-portfolio**](https://github.com/hrlpavan/all-projects-portfolio)
-> - 📑 **Individual Deep-Dive Subfiles**: [**Explore All 31 Subfiles**](https://github.com/hrlpavan/all-projects-portfolio/tree/main/projects)
+> - 📑 **Individual Deep-Dive Subfiles**: [**Explore All 52 Subfiles**](https://github.com/hrlpavan/all-projects-portfolio/tree/main/projects)
 
 ---
 
@@ -99,7 +99,8 @@
 > HRL International Private Limited has officially published its comprehensive **Public IP Vault, Trademark Classification (Classes 9, 38, 41, 42), Copyright Doctrine, and Statutory DMCA Takedown Policy (17 U.S.C. § 512)**.
 > - 🌐 **Interactive Legal Web Portal**: [**`hrlpavan.github.io/hrl-international-website-/legal.html`**](https://hrlpavan.github.io/hrl-international-website-/legal.html)
 > - 📄 **Download Official Legal Charter (PDF)**: [**`HRL_International_IP_Trademark_DMCA_Charter.pdf`**](https://github.com/hrlpavan/hrlpavan/blob/main/pdfs/HRL_International_IP_Trademark_DMCA_Charter.pdf)
-> - ⚖️ **Statutory Notice**: All projects are protected under **Central & State Government Innovation Initiatives** (Startup India SISFS & Karnataka ELEVATE). Unlawful piracy, algorithm scraping, brand passing-off, or academic cyber-ragging triggers **mandatory First Information Report (FIR) criminal proceedings (BNS 2023 / IT Act / Anti-Ragging Act 1998)** and **multi-crore civil damage suits**.\n
+> - ⚖️ **Statutory Notice**: All projects are protected under **Central & State Government Innovation Initiatives** (Startup India SISFS & Karnataka ELEVATE). Unlawful piracy, algorithm scraping, brand passing-off, or academic cyber-ragging triggers **mandatory First Information Report (FIR) criminal proceedings (BNS 2023 / IT Act / Anti-Ragging Act 1998)** and **multi-crore civil damage suits**.
+
 ---
 
 > [!NOTE]
@@ -262,14 +263,14 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
 1. **[HRL X MAC X Windows VM Protocol (`HRL-X-MAC-X-Windows-VM-Protocol-Supercharged-By-LLM`)](https://github.com/hrlpavan/HRL-X-MAC-X-Windows-VM-Protocol-Supercharged-By-LLM)**  
    Enterprise execution protocol bridging macOS Host, Parallels VM, Windows 11 UiPath Studio, DaVinci Resolve, and My Passport External Storage.
 2. **[Master Projects Portfolio (`all-projects-portfolio`)](https://github.com/hrlpavan/all-projects-portfolio)**  
-   The centralized showcase containing all 32 completed projects with dedicated architectural subfiles.
+   The centralized showcase containing all 52 completed projects (dual-synced across GitHub & GitLab) with dedicated architectural subfiles.
 3. **[LocalAI Runtime for NVIDIA RTX/CUDA (`nvedia-project-by-hrl`)](https://github.com/hrlpavan/nvedia-project-by-hrl)**  
    C++20/CUDA on-device inference runtime with atomic 0.17 µs Paged KV-Cache allocation and 1,538+ tokens/sec throughput.
 4. **[HRL Programming Language for LLMs (`hrl-lang`)](https://github.com/hrlpavan/hrl-lang)**  
    Verifiable DSL engineered for Large Language Models with FeUdal macro/micro planning ($C=8$) and reachability envelopes ($R_c(s)$).
 5. **[HRL V12 Engine 3D Simulation (`hrl-v12-engine`)](https://github.com/hrlpavan/hrl-v12-engine)**  
    Interactive 3D WebGL 60° Quad-Cam 48-Valve V12 racing engine with real-time procedural Web Audio synthesis and analytical telemetry.
-6. **[AI Cinematic Haze OpenFX Plugin](https://github.com/hrlpavan/hrl-international-website-)**  
+6. **[AI Cinematic Haze OpenFX Plugin (`ai-cinematic-haze-ofx`)](https://github.com/hrlpavan/ai-cinematic-haze-ofx)**  
    DaVinci Resolve OFX neural depth atmospheric shader running locally on Apple Metal & NVIDIA CUDA with zero cloud lag.
 7. **[InvigiMatrix — Examination Optimization Platform](https://github.com/hrlpavan/exam-invigilation-dsa-app)**  
    Full-stack examination solver powered by custom NP-hard CSP Backtracking and K-Means ($k=3$) dynamic anti-cheating clustering (*Live deployed @ SCEM*).
