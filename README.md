@@ -45,6 +45,11 @@
       <h4>🚀 Active GitLab Community Contributions</h4>
       <ul>
         <li>
+          <strong><a href="https://gitlab.com/gitlab-org/gitlab/-/merge_requests/260212">GitLab Core !260212</a></strong> — <em>Add MCP resources and resource templates list endpoints</em><br/>
+          <span>Fixes <a href="https://gitlab.com/gitlab-org/gitlab/-/work_items/584258">Issue #584258</a> (<code>community-bonus::100</code>, <code>Hackathon</code>). Implemented <code>resources/list</code> and <code>resources/templates/list</code> JSON-RPC handlers and advertised <code>resources</code> capability in the <code>initialize</code> handshake so MCP clients such as Cline connect without <code>404 Method not found</code> errors. Passed <code>danger-review</code>, <code>rubocop</code>, <code>rspec:predictive</code>, and <code>rspec-ee:predictive</code>.</span>
+        </li>
+        <br/>
+        <li>
           <strong><a href="https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/7251">AI Gateway !7251</a></strong> — <em>Add Gemini 4 Argon to model registry & lifecycle</em><br/>
           <span>Fixes <a href="https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/work_items/3001">Issue #3001</a>. Registered Google's next-gen Gemini 4 Argon (<code>gemini_4_argon_vertex</code>) with 1M context tokens, 64k max tokens, and pricing indicators in <code>models.yml</code> and <code>unit_primitives.yml</code>. 100% passed all 24 CI jobs across unit tests, linters, and container builds.</span>
         </li>
