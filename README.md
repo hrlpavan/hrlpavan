@@ -17,7 +17,7 @@
 [![STPI Software Exporter](https://img.shields.io/badge/STPI%20MeitY-Software%20Exporter-blue?style=for-the-badge&logo=shield)](STPI_SOFTWARE_EXPORT_AND_SOFTEX_COMPLIANCE_DOSSIER.md)
 [![Master Portfolio](https://img.shields.io/badge/Master%20Portfolio-52%20Projects-success?style=for-the-badge&logo=github)](https://github.com/hrlpavan/all-projects-portfolio)
 [![Daily Updates](https://img.shields.io/badge/Daily%20Updates-Active%20Telemetry-D1002D?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/hrlpavan/daily-project-updates)
-[![Streak Maintained](https://img.shields.io/badge/GitHub%20Streak-Active-brightgreen?style=for-the-badge&logo=githubactions)](https://github.com/hrlpavan)
+[![Streak Maintained](https://img.shields.io/badge/GitHub%20Streak-Active-D4AF37?style=for-the-badge&logo=githubactions)](https://github.com/hrlpavan)
 
 </div>
 
@@ -160,7 +160,9 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
 
 ---
 
-## Live Activity & Contribution Telemetry
+## ⚡ Live Activity & Contribution Telemetry
+
+<div align="center">
 
 <!-- 1. Cyberpunk Telemetry HUD Animation -->
 <a href="https://github.com/hrlpavan/daily-project-updates">
@@ -174,9 +176,10 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
 </a>
 <br/><br/>
 
+<!-- 3. Royal Gold Contribution Streak Stats (Total Contributions, Current Streak & Longest Streak) -->
 <p align="center">
   <a href="https://github.com/hrlpavan">
-    <img src="https://streak-stats.demolab.com/?user=hrlpavan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com/?user=hrlpavan&theme=dark&background=0B0E14&border=D4AF37&stroke=D4AF37&ring=D4AF37&fire=FFD700&currStreakNum=FFD700&sideNums=D4AF37&currStreakLabel=FFD700&sideLabels=E5C158&dates=C5A059&border_radius=10" alt="GitHub Streak" />
   </a>
 </p>
 <p align="center">
