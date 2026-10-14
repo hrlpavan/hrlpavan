@@ -238,17 +238,6 @@ I operate at the intersection of **low-level systems programming (C++, Apple Met
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,py,flask,fastapi,ruby,lua,swift,c,cpp,cmake,rust,apple,linux,redhat,docker,kubernetes,aws,azure,mongodb,mysql,postgres,git,github,gitlab,discord,linkedin,md,tailwind" alt="Tech Stack & Tools" />
   </a>
-  <br/>
-  <!-- Contributed Skill Icons: tandpfun/skill-icons#1803 -->
-  <a href="https://github.com/tandpfun/skill-icons/pull/1803" title="DaVinci Resolve Studio">
-    <img src="assets/icons/DaVinciResolve-Dark.svg" height="48" alt="DaVinci Resolve" />
-  </a>
-  <a href="https://github.com/tandpfun/skill-icons/pull/1803" title="Google Antigravity">
-    <img src="assets/icons/Antigravity-Dark.svg" height="48" alt="Google Antigravity" />
-  </a>
-  <a href="https://github.com/tandpfun/skill-icons/pull/1803" title="UiPath Studio & Automation Cloud">
-    <img src="assets/icons/UiPath-Dark.svg" height="48" alt="UiPath" />
-  </a>
 </p>
 
 <br/>
