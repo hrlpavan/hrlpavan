@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "HRL-IP-PAT-AVATAR-2026-PKS-001",
+  "title": "Official Commercial Profile Picture Patent, Industrial Design, Trade Dress & Cryptographic Ownership Charter",
+  "sole_applicant_inventor_and_signatory": {
+    "full_legal_name": "Pavan Kumar Sadashiv",
+    "email": "pavankcet@gmail.com",
+    "x509_certificate_subject": "/C=IN/ST=Karnataka/L=Mangaluru/O=HRL International Private Limited/OU=Commercial IP and Patent Authority/CN=Pavan Kumar Sadashiv/emailAddress=pavankcet@gmail.com",
+    "x509_certificate_sha256_fingerprint": "E3:C0:B3:ED:10:AD:F5:0B:67:37:E4:23:C5:4B:0B:6C:0C:F2:0F:8E:5C:E0:55:D7:FF:02:47:FC:E3:F4:1E:B5",
+    "openssh_ed25519_public_key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIErFEc+G4lReCawhc82itMwBZCtxKlR5RbSmr4krCC3B Pavan Kumar Sadashiv <pavankcet@gmail.com>",
+    "openssh_ed25519_fingerprint": "256 SHA256:/J41fAtNxlvEE0U6mpRm4qudBWFVlKZuVPXEY9lsd5U Pavan Kumar Sadashiv <pavankcet@gmail.com> (ED25519)"
+  },
+  "commercial_profile_image_sha256": "0660daf4d7377af82d844c854db878139dbee957e69575e83e2fc89862a07b8e",
+  "commercial_profile_image_sha512": "3ee9743ec01e4d14b5ca912137abac566a45d386aa6378bb6ff1251d312ac23347363e1818f5bf5fcfe45882ff76b43873b22705db2d5b9417d60dc23175519f"
+}
