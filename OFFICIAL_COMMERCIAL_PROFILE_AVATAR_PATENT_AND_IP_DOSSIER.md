@@ -10,9 +10,18 @@
 
 ---
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/hrlpavan/pavan-kumar-sadashiv-avatar-patent/main/assets/pavan-kumar-sadashiv-official-commercial-avatar.jpg" alt="Pavan Kumar Sadashiv — Official Commercial Business Profile Picture & Patented Visual Identity" width="360" style="border-radius: 14px; border: 2px solid #D1002D; box-shadow: 0 0 28px rgba(209, 0, 45, 0.45);" />
+  <br/><br/>
+  <strong>Exhibit A — Canonical Protected Asset: Official Commercial Profile Picture & Executive Brand Avatar of Pavan Kumar Sadashiv</strong><br/>
+  <code>SHA-256: 0660daf4d7377af82d844c854db878139dbee957e69575e83e2fc89862a07b8e</code>
+</div>
+
+---
+
 ## 1. Executive Declaration of Exclusive Commercial Ownership
 
-I, **Pavan Kumar Sadashiv**, Founder & Managing Director of **HRL International Private Limited** (Mangaluru, Karnataka, India) and President & Chief Executive Officer of **HRL International, Inc.** (Delaware, United States), hereby declare, register, and cryptographically attest that the visual work, ornamental trade dress, and digital portrait designated as **`pavan-kumar-sadashiv-official-commercial-avatar.jpg`** (*Exhibit A*, `SHA-256: 0660daf4d7377af82d844c854db878139dbee957e69575e83e2fc89862a07b8e`) is my **exclusive commercial business profile picture, executive brand mark, patented ornamental visual identity, and proprietary copyrighted work**.
+I, **Pavan Kumar Sadashiv**, Founder & Managing Director of **HRL International Private Limited** (Mangaluru, Karnataka, India) and President & Chief Executive Officer of **HRL International, Inc.** (Delaware, United States), hereby declare, register, and cryptographically attest that the visual work, ornamental trade dress, and digital portrait designated as **`pavan-kumar-sadashiv-official-commercial-avatar.jpg`** (*Exhibit A*) is my **exclusive commercial business profile picture, executive brand mark, patented ornamental visual identity, and proprietary copyrighted work**.
 
 All legal title, commercial exploitation rights, design patent claims, trademark rights, moral rights, right of publicity, and cryptographic verification keys associated with this visual asset are vested **100% and irrevocably under the name Pavan Kumar Sadashiv**.
 
