@@ -55,6 +55,16 @@
       <h4>🚀 Active GitLab Community Contributions</h4>
       <ul>
         <li>
+          <strong><a href="https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp/-/merge_requests/4402">GitLab Language Server !4402</a></strong> — <em>Resilient SKILL.md frontmatter parsing with fallback</em> (Merged Oct 19, 2026)<br/>
+          <span>Resolved unhandled YAML parser failures when agent skill definitions contain malformed frontmatter or unescaped markdown headers, introducing resilient regex-based fallback extraction to prevent crashes in the Duo CLI / Language Server runtime.</span>
+        </li>
+        <br/>
+        <li>
+          <strong><a href="https://gitlab.com/gitlab-org/gitlab/-/merge_requests/261024">GitLab Core !261024</a></strong> — <em>Wire DuplicateDefaultTrackedContextsCheck into Orchestrator</em> (Merged Oct 19, 2026)<br/>
+          <span>Fixes <a href="https://gitlab.com/gitlab-org/gitlab/-/work_items/601618">Issue #601618</a>. Wired duplicate context validation directly into the AI Orchestrator flow, ensuring default tracked contexts are deduplicated cleanly across active Duo chat sessions.</span>
+        </li>
+        <br/>
+        <li>
           <strong><a href="https://gitlab.com/gitlab-org/gitlab/-/merge_requests/260212">GitLab Core !260212</a></strong> — <em>Add MCP resources and resource templates list endpoints</em><br/>
           <span>Fixes <a href="https://gitlab.com/gitlab-org/gitlab/-/work_items/584258">Issue #584258</a> (<code>community-bonus::100</code>, <code>Hackathon</code>). Implemented <code>resources/list</code> and <code>resources/templates/list</code> JSON-RPC handlers and advertised <code>resources</code> capability in the <code>initialize</code> handshake so MCP clients such as Cline connect without <code>404 Method not found</code> errors. Passed <code>danger-review</code>, <code>rubocop</code>, <code>rspec:predictive</code>, and <code>rspec-ee:predictive</code>.</span>
         </li>
