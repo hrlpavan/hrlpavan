@@ -35,12 +35,18 @@
 <br/>
 
 <div align="center">
-  <p><b>🚩 Official Corporate Sovereign Flag of HRL International Private Limited</b></p>
-  <a href="https://github.com/hrlpavan/hrl-corporate-flag">
+  <p><b>Official Corporate Sovereign Flag of HRL International Private Limited</b></p>
+  <a href="https://hrlpavan.github.io/hrl-international-website-/flag.html">
     <img src="https://raw.githubusercontent.com/hrlpavan/hrl-corporate-flag/main/HRL%20INTERNATIONAL%20PRIVATE%20LIMITED%20CORE%20COUNTRY%20FLAG.png" alt="HRL International Official Corporate Flag RAW Master" width="600" style="border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);" />
   </a>
   <br/>
   <small><em>Nordic Cross Geometry &bull; Quad-Stripe Canton &bull; Official HRL Insignia &bull; Dual Heraldic Eagles &bull; 8-Pointed Compass Star &bull; RAW Master 10,800×7,200 UHD</em></small>
+  <br/>
+  <p>
+    <a href="https://hrlpavan.github.io/hrl-international-website-/flag.html"><b>[Enter Official Flag Showcase &rarr;]</b></a> &bull; 
+    <a href="https://github.com/hrlpavan/hrl-corporate-flag"><b>[GitHub Repository]</b></a> &bull; 
+    <a href="https://gitlab.com/hrlpavan/hrl-corporate-flag"><b>[GitLab Mirror]</b></a>
+  </p>
 </div>
 
 ---
