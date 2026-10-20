@@ -37,10 +37,10 @@
 <div align="center">
   <p><b>🚩 Official Corporate Sovereign Flag of HRL International Private Limited</b></p>
   <a href="https://github.com/hrlpavan/hrl-corporate-flag">
-    <img src="https://raw.githubusercontent.com/hrlpavan/hrl-corporate-flag/main/flag.svg" alt="HRL International Official Corporate Flag" width="600" style="border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);" />
+    <img src="https://raw.githubusercontent.com/hrlpavan/hrl-corporate-flag/main/HRL%20INTERNATIONAL%20PRIVATE%20LIMITED%20CORE%20COUNTRY%20FLAG.png" alt="HRL International Official Corporate Flag RAW Master" width="600" style="border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);" />
   </a>
   <br/>
-  <small><em>Nordic Cross Geometry &bull; Quad-Stripe Canton &bull; Official HRL Insignia &bull; Dual Heraldic Eagles &bull; 8-Pointed Compass Star</em></small>
+  <small><em>Nordic Cross Geometry &bull; Quad-Stripe Canton &bull; Official HRL Insignia &bull; Dual Heraldic Eagles &bull; 8-Pointed Compass Star &bull; RAW Master 10,800×7,200 UHD</em></small>
 </div>
 
 ---
