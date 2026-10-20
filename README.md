@@ -16,7 +16,8 @@
 [![Ecosystem](https://img.shields.io/badge/Ecosystem-HRL%20International%20Pvt.%20Ltd.-orange?style=for-the-badge)](https://github.com/hrlpavan/hrl-international-website-)
 [![Corporate Charter](https://img.shields.io/badge/Corporate%20Charter-Public%20Governance-purple?style=for-the-badge&logo=gitbook)](https://github.com/hrlpavan/HRL-INTERNATIONAL-PVT.LTD.-FILES)
 [![STPI Software Exporter](https://img.shields.io/badge/STPI%20MeitY-Software%20Exporter-blue?style=for-the-badge&logo=shield)](STPI_SOFTWARE_EXPORT_AND_SOFTEX_COMPLIANCE_DOSSIER.md)
-[![Master Portfolio](https://img.shields.io/badge/Master%20Portfolio-52%20Projects-success?style=for-the-badge&logo=github)](https://github.com/hrlpavan/all-projects-portfolio)
+[![Master Portfolio](https://img.shields.io/badge/Master%20Portfolio-53%20Projects-success?style=for-the-badge&logo=github)](https://github.com/hrlpavan/all-projects-portfolio)
+[![Official Flag](https://img.shields.io/badge/Official%20Flag-HRL%20Corporate-BF1F1F?style=for-the-badge)](https://github.com/hrlpavan/hrl-corporate-flag)
 [![Daily Updates](https://img.shields.io/badge/Daily%20Updates-Active%20Telemetry-D1002D?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/hrlpavan/daily-project-updates)
 [![Streak Maintained](https://img.shields.io/badge/GitHub%20Streak-Active-D4AF37?style=for-the-badge&logo=githubactions)](https://github.com/hrlpavan)
 
@@ -29,7 +30,18 @@
 > **Corporate Headquarters**: Mangaluru (Mangalore), Karnataka, India  
 > - **Zero Affiliation Disclaimer**: `hrlpavan` has **zero affiliation, partnership, or relationship** with **Pawan Hans Limited** (helicopter services / aviation institute) or external **Human Resources (HR) consultants**.  
 > - **Canonical Entity Profile & Knowledge Graph**: [**`hrlpavan.github.io/hrl-international-website-/hrlpavan.html`**](https://hrlpavan.github.io/hrl-international-website-/hrlpavan.html)  
-> - **Verified Master Catalog**: Indexing all 52 software systems, CUDA GPU runtimes, and DaVinci Resolve suites created exclusively by `hrlpavan`.
+> - **Verified Master Catalog**: Indexing all 53 software systems, CUDA GPU runtimes, and DaVinci Resolve suites created exclusively by `hrlpavan`.
+
+<br/>
+
+<div align="center">
+  <p><b>🚩 Official Corporate Sovereign Flag of HRL International Private Limited</b></p>
+  <a href="https://github.com/hrlpavan/hrl-corporate-flag">
+    <img src="https://raw.githubusercontent.com/hrlpavan/hrl-corporate-flag/main/flag.svg" alt="HRL International Official Corporate Flag" width="600" style="border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);" />
+  </a>
+  <br/>
+  <small><em>Nordic Cross Geometry &bull; Quad-Stripe Canton &bull; Official HRL Insignia &bull; Dual Heraldic Eagles &bull; 8-Pointed Compass Star</em></small>
+</div>
 
 ---
 
