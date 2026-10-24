@@ -55,8 +55,37 @@ Software engineer building backend systems, developer tooling, and AI agent inte
 
 ---
 
-## 🛠️ Core Engineering Stack
+## 🔧 Tech Stack & Tools
+
+<div align="center">
+  <p align="center">
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,py,flask,fastapi,ruby,lua,swift,c,cpp,cmake,rust,apple,linux,redhat,docker,kubernetes,aws,azure,mongodb,mysql,postgres,git,github,gitlab,discord,linkedin,md,tailwind" alt="Tech Stack & Tools" />
+    </a>
+  </p>
+</div>
 
 - **Languages & Backend:** Ruby on Rails, TypeScript / Node.js, Python (FastAPI, Asyncio), Go, SQL (PostgreSQL, SQLite), C++20
 - **AI Agents & Developer Tooling:** Model Context Protocol (MCP) Servers & JSON-RPC, GitLab Duo & Language Server (`gitlab-lsp`), AI Gateway, LLM Tool Use & Evaluation
 - **Infrastructure & Quality:** GitLab CI/CD, Docker, Terraform, RSpec, RuboCop, Jest, Pytest, Linux
+
+---
+
+## 📊 Contribution Activity & Language Telemetry
+
+<div align="center">
+  <p align="center">
+    <a href="https://github.com/hrlpavan">
+      <img src="https://streak-stats.demolab.com/?user=hrlpavan&theme=dark&background=0B0E14&border=D4AF37&stroke=D4AF37&ring=D4AF37&fire=FFD700&currStreakNum=FFD700&sideNums=D4AF37&currStreakLabel=FFD700&sideLabels=E5C158&dates=C5A059&border_radius=10" alt="Contribution Streak" />
+    </a>
+  </p>
+  <p align="center">
+    <a href="https://github.com/hrlpavan">
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=hrlpavan&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="150" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/hrlpavan">
+      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=hrlpavan&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" height="150" />
+    </a>
+  </p>
+</div>
