@@ -81,11 +81,11 @@ Software engineer building backend systems, developer tooling, and AI agent inte
   </p>
   <p align="center">
     <a href="https://github.com/hrlpavan">
-      <img src="https://github-readme-stats-fast.vercel.app/api?username=hrlpavan&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="150" />
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=hrlpavan&show_icons=true&bg_color=0B0E14&title_color=FFD700&text_color=E5C158&icon_color=D4AF37&ring_color=D4AF37&border_color=D4AF37&border_radius=10" alt="GitHub Stats" height="150" />
     </a>
     &nbsp;&nbsp;
     <a href="https://github.com/hrlpavan">
-      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=hrlpavan&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" height="150" />
+      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=hrlpavan&layout=compact&bg_color=0B0E14&title_color=FFD700&text_color=E5C158&border_color=D4AF37&border_radius=10" alt="Most Used Languages" height="150" />
     </a>
   </p>
 </div>
