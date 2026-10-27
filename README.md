@@ -8,6 +8,8 @@
 [![GitLab Profile](https://img.shields.io/badge/GitLab-@hrlpavan-FCA121?style=for-the-badge&logo=gitlab&logoColor=black)](https://gitlab.com/hrlpavan)
 [![Location](https://img.shields.io/badge/Location-Mangaluru,_India_(UTC+5:30)-0A66C2?style=for-the-badge)](https://gitlab.com/hrlpavan)
 
+[![GitLab Contributor Scorecard](https://contributors.gitlab.com/users/hrlpavan/banner.svg)](https://contributors.gitlab.com/users/hrlpavan)
+
 ---
 
 ## Executive Summary & Architectural Focus
