@@ -7,6 +7,7 @@
 
 [![Community Highlight](https://img.shields.io/badge/GitLab_Community-Featured_Highlight_(Oct_2026)-6B4FBB?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/hrlpavan)
 [![GitLab Profile](https://img.shields.io/badge/GitLab-@hrlpavan-FCA121?style=for-the-badge&logo=gitlab&logoColor=black)](https://gitlab.com/hrlpavan)
+[![Daily Streak](https://img.shields.io/badge/Daily_Streak-83_Days_(Active)-FFD700?style=for-the-badge&logo=githubactions&logoColor=black)](https://github.com/hrlpavan)
 [![Location](https://img.shields.io/badge/Location-Mangaluru,_India_(UTC+5:30)-0A66C2?style=for-the-badge)](https://gitlab.com/hrlpavan)
 
 ---
@@ -65,6 +66,27 @@ I operate on an **async-first, handbook-driven** workflow aligned with GitLab's 
 1. **Small, Verifiable Iterations:** Breaking complex cross-service epics into atomic, low-risk Merge Requests with comprehensive unit and integration test coverage.
 2. **Root-Cause Rigor:** Treating every bug or latency spike as a systems boundary problem—fixing the underlying schema, guard, or contract rather than patching symptoms.
 3. **Community Multiplication:** Actively unblocking peers through responsive code reviews, reproducible issue triage, and clear architectural documentation.
+
+---
+
+## 📊 Contribution Telemetry & Daily Streak
+
+<div align="center">
+  <p align="center">
+    <a href="https://github.com/hrlpavan">
+      <img src="https://streak-stats.demolab.com/?user=hrlpavan&theme=dark&background=0B0E14&border=D4AF37&stroke=D4AF37&ring=D4AF37&fire=FFD700&currStreakNum=FFD700&sideNums=D4AF37&currStreakLabel=FFD700&sideLabels=E5C158&dates=C5A059&border_radius=10" alt="Contribution Streak" />
+    </a>
+  </p>
+  <p align="center">
+    <a href="https://github.com/hrlpavan">
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=hrlpavan&show_icons=true&bg_color=0B0E14&title_color=FFD700&text_color=E5C158&icon_color=D4AF37&ring_color=D4AF37&border_color=D4AF37&border_radius=10" alt="GitHub Stats" height="150" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/hrlpavan">
+      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=hrlpavan&layout=compact&bg_color=0B0E14&title_color=FFD700&text_color=E5C158&border_color=D4AF37&border_radius=10" alt="Most Used Languages" height="150" />
+    </a>
+  </p>
+</div>
 
 ---
 
