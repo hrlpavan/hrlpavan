@@ -2,7 +2,7 @@
 
 [![GitLab Contributor Scorecard](https://contributors.gitlab.com/users/hrlpavan/banner.svg)](https://contributors.gitlab.com/users/hrlpavan)
 
-**AI Systems Chief Architect @ HRL International Pvt. Ltd.** · **GitLab Level 3 Community Contributor**  
+**AI Systems Chief Architect @ [HRL International Pvt. Ltd.](https://hrlpavan.github.io/hrl-international-website-/)** · **GitLab Level 3 Community Contributor**  
 *Architecting high-throughput distributed backends, polyglot AI agent runtimes, and GPU-accelerated inference systems.*
 
 [![Community Highlight](https://img.shields.io/badge/GitLab_Community-Featured_Highlight_(Oct_2026)-6B4FBB?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/hrlpavan)
@@ -50,7 +50,7 @@ My upstream engineering work focuses on resolving structural bottlenecks across 
 
 ## Systems Leadership & R&D Initiatives
 
-### **HRL International Pvt. Ltd.** — *Founder, Managing Director & AI Systems Chief Architect*
+### **[HRL International Pvt. Ltd.](https://hrlpavan.github.io/hrl-international-website-/)** — *Founder, Managing Director & AI Systems Chief Architect*
 - Directing core systems architecture for high-efficiency GPU inference runtimes, combinatorial optimization solvers, and enterprise media technology under **HRL Crimson Red Media**.
 - Designing low-overhead C++20/CUDA execution graphs and custom memory management primitives to maximize hardware utilization on modern accelerator architectures.
 
@@ -92,6 +92,7 @@ I operate on an **async-first, handbook-driven** workflow aligned with GitLab's 
 
 ## Connect & Verify
 
+- **Company Platform:** [hrlpavan.github.io/hrl-international-website-](https://hrlpavan.github.io/hrl-international-website-/)
 - **GitLab Contributor Dashboard:** [contributors.gitlab.com/users/hrlpavan](https://contributors.gitlab.com/users/hrlpavan)
 - **GitLab Profile:** [gitlab.com/hrlpavan](https://gitlab.com/hrlpavan)
 - **Automated Workflow:** Managed via `glab` CLI & autonomous AI engineering agents.
