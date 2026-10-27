@@ -1,14 +1,13 @@
 # Pavan Kumar S (`@hrlpavan`)
 
+[![GitLab Contributor Scorecard](https://contributors.gitlab.com/users/hrlpavan/banner.svg)](https://contributors.gitlab.com/users/hrlpavan)
+
 **AI Systems Chief Architect @ HRL International Pvt. Ltd.** · **GitLab Level 3 Community Contributor**  
 *Architecting high-throughput distributed backends, polyglot AI agent runtimes, and GPU-accelerated inference systems.*
 
-[![GitLab Contributor](https://img.shields.io/badge/GitLab_Contributor-Level_3_(3,868_Pts)-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://contributors.gitlab.com/users/hrlpavan)
 [![Community Highlight](https://img.shields.io/badge/GitLab_Community-Featured_Highlight_(Oct_2026)-6B4FBB?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/hrlpavan)
 [![GitLab Profile](https://img.shields.io/badge/GitLab-@hrlpavan-FCA121?style=for-the-badge&logo=gitlab&logoColor=black)](https://gitlab.com/hrlpavan)
 [![Location](https://img.shields.io/badge/Location-Mangaluru,_India_(UTC+5:30)-0A66C2?style=for-the-badge)](https://gitlab.com/hrlpavan)
-
-[![GitLab Contributor Scorecard](https://contributors.gitlab.com/users/hrlpavan/banner.svg)](https://contributors.gitlab.com/users/hrlpavan)
 
 ---
 
