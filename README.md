@@ -9,6 +9,15 @@
 [![GitLab Profile](https://img.shields.io/badge/GitLab-@hrlpavan-FCA121?style=for-the-badge&logo=gitlab&logoColor=black)](https://gitlab.com/hrlpavan)
 [![Daily Streak](https://img.shields.io/badge/Daily_Streak-83_Days_(Active)-FFD700?style=for-the-badge&logo=githubactions&logoColor=black)](https://github.com/hrlpavan)
 [![Location](https://img.shields.io/badge/Location-Mangaluru,_India_(UTC+5:30)-0A66C2?style=for-the-badge)](https://gitlab.com/hrlpavan)
+[![HR Verification](https://img.shields.io/badge/Candidate_Verification-Pavan_Kumar_S-00C853?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/hrlpavan/pavan-kumar-s-identity-verification)
+
+---
+
+> [!IMPORTANT]
+> ### 🏛️ Official Candidate Identity & HR Verification Notice
+> * **Candidate Legal & Employment Name:** **Pavan Kumar S**  
+> * **Brand Identity Clarification:** The name **"Sadashiv"** is utilized as a brand moniker across personal research architectures, the **HRL International** ecosystem, and creative engineering releases. For all company job applications, employment contracts, offer letters, payroll, and background screening checks, the official legal name is **Pavan Kumar S**.  
+> * 🔗 **HR Verification Records:** [GitHub Verification Record](https://github.com/hrlpavan/pavan-kumar-s-identity-verification) · [GitLab Verification Record](https://gitlab.com/hrlpavan/pavan-kumar-s-identity-verification)
 
 ---
 
@@ -92,6 +101,7 @@ I operate on an **async-first, handbook-driven** workflow aligned with GitLab's 
 
 ## Connect & Verify
 
+- **Official Candidate Verification (HR & Hiring Teams):** [github.com/hrlpavan/pavan-kumar-s-identity-verification](https://github.com/hrlpavan/pavan-kumar-s-identity-verification) · [gitlab.com/hrlpavan/pavan-kumar-s-identity-verification](https://gitlab.com/hrlpavan/pavan-kumar-s-identity-verification)
 - **Company Platform:** [hrlpavan.github.io/hrl-international-website-](https://hrlpavan.github.io/hrl-international-website-/)
 - **GitLab Contributor Dashboard:** [contributors.gitlab.com/users/hrlpavan](https://contributors.gitlab.com/users/hrlpavan)
 - **GitLab Profile:** [gitlab.com/hrlpavan](https://gitlab.com/hrlpavan)
