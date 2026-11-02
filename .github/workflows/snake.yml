@@ -1,9 +1,9 @@
-name: Generate Contribution Snake Animation
+name: Daily Contribution Telemetry & Snake Sync
 
 on:
   schedule:
-    # Run automatically every 24 hours at midnight UTC
-    - cron: "0 0 * * *"
+    # Run automatically every 4 hours to keep daily streak and snake animation live
+    - cron: "0 */4 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -20,6 +20,17 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Synchronize Live Daily Contribution Streak
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/update_daily_streak.py
+
       - name: Generate GitHub Contribution Grid Snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -28,10 +39,10 @@ jobs:
             assets/github-contribution-grid-snake.svg
             assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ff4d7a&color_dots=#161b22,#ffb3c6,#ff668a,#ff3360,#D1002D
 
-      - name: Commit & Push Snake Assets
+      - name: Commit & Push Telemetry Assets
         uses: EndBug/add-and-commit@v9
         with:
-          message: "chore(telemetry): auto-update contribution snake animation [skip ci]"
-          add: "assets/*.svg"
+          message: "chore(telemetry): auto-sync daily contribution streak & snake [skip ci]"
+          add: "assets/ README.md"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

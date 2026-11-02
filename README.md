@@ -7,7 +7,7 @@
 
 [![Community Highlight](https://img.shields.io/badge/GitLab_Community-Featured_Highlight_(Oct_2026)-6B4FBB?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/hrlpavan)
 [![GitLab Profile](https://img.shields.io/badge/GitLab-@hrlpavan-FCA121?style=for-the-badge&logo=gitlab&logoColor=black)](https://gitlab.com/hrlpavan)
-[![Daily Streak](https://img.shields.io/badge/Daily_Streak-83_Days_(Active)-FFD700?style=for-the-badge&logo=githubactions&logoColor=black)](https://github.com/hrlpavan)
+[![Daily Streak](https://img.shields.io/badge/Daily_Streak-89_Days_(Active)-FFD700?style=for-the-badge&logo=githubactions&logoColor=black)](https://github.com/hrlpavan)
 [![Location](https://img.shields.io/badge/Location-Mangaluru,_India_(UTC+5:30)-0A66C2?style=for-the-badge)](https://gitlab.com/hrlpavan)
 [![HR Verification](https://img.shields.io/badge/Candidate_Verification-Pavan_Kumar_S-00C853?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/hrlpavan/pavan-kumar-s-identity-verification)
 
