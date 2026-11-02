@@ -44,5 +44,6 @@ jobs:
         with:
           message: "chore(telemetry): auto-sync daily contribution streak & snake [skip ci]"
           add: "assets/ README.md"
+          pull: "--rebase --autostash"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
