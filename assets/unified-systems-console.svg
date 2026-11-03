@@ -154,11 +154,11 @@
     <!-- Metric Divider 2 -->
     <line x1="614" y1="254" x2="956" y2="254" stroke="#1E2330" stroke-width="0.8"/>
 
-    <!-- Metric 3: Recognition -->
+    <!-- Metric 3: GitLab Hackathon & Community Standing -->
     <g transform="translate(614, 286)">
-      <text x="0" y="0" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="20" font-weight="700" letter-spacing="-0.5" fill="#F8FAFC">Tier 3 Contributor</text>
-      <text x="0" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11.5" font-weight="600" fill="#10B981">Verified Recognition</text>
-      <text x="0" y="31" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="10" font-weight="400" fill="#94A3B8">Top 3,800+ GitLab community leaderboard</text>
+      <text x="0" y="0" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="24" font-weight="700" letter-spacing="-0.5" fill="#F8FAFC">Top 7 Global</text>
+      <text x="0" y="17" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#10B981">GitLab Global Hackathon</text>
+      <text x="0" y="31" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="9.5" font-weight="400" fill="#94A3B8">Top 7 worldwide placement · Contributor Level 3 (3,868 pts)</text>
     </g>
 
     <!-- ========================================== -->

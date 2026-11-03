@@ -57,9 +57,9 @@ const telemetryMetrics: TelemetryMetric[] = [
     subtext: "Daily production commit cadence",
   },
   {
-    value: "Tier 3 Contributor",
-    label: "Verified Recognition",
-    subtext: "Top 3,800+ GitLab community leaderboard",
+    value: "Top 7 Global",
+    label: "GitLab Global Hackathon",
+    subtext: "Top 7 worldwide placement · Contributor Level 3 (3,868 pts)",
   },
 ];
 
