@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HRL Systems Architecture — Unified Telemetry &amp; Delivery Console</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #050608;
+    }
+    .font-mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4 md:p-8 text-slate-200">
+  <div class="w-full max-w-5xl rounded-2xl border border-white/[0.08] bg-[#090A0F] shadow-2xl shadow-black/90 overflow-hidden">
+    <!-- Top Control Bar (Full Width) -->
+    <header class="flex flex-wrap items-center justify-between gap-4 px-6 py-4 border-b border-white/[0.06] bg-[#0E1117]/80 backdrop-blur-md">
+      <div class="flex flex-col gap-0.5">
+        <div class="flex items-center gap-2">
+          <span class="h-1.5 w-1.5 rounded-full bg-[#D1002D]"></span>
+          <span class="font-mono text-[10px] font-semibold uppercase tracking-widest text-slate-400">
+            HRL SYSTEMS ARCHITECTURE
+          </span>
+        </div>
+        <h1 class="text-base font-semibold tracking-tight text-slate-100">
+          Production Deliverables &amp; Contribution Telemetry
+        </h1>
+      </div>
+
+      <!-- Global Status Chip (Never Clips) -->
+      <div class="flex-shrink-0 whitespace-nowrap inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-950/20 px-3 py-1 text-xs">
+        <span class="relative flex h-2 w-2 flex-shrink-0">
+          <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
+          <span class="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
+        </span>
+        <span class="font-mono text-[11px] font-medium text-emerald-400">
+          Live CD / Merge Train Operational
+        </span>
+      </div>
+    </header>
+
+    <!-- Bento Main Grid: 60/40 Split -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 divide-y lg:divide-y-0 lg:divide-x divide-white/[0.06] bg-[#090A0F]">
+      <!-- Left Column (60% Width): Verified Continuous Delivery Deliverables -->
+      <section class="lg:col-span-7 flex flex-col divide-y divide-white/[0.06]">
+        <div class="px-6 py-2.5 bg-[#0C0F15] border-b border-white/[0.04]">
+          <span class="font-mono text-[10px] font-semibold tracking-wider uppercase text-slate-400">
+            VERIFIED CONTINUOUS DELIVERY DELIVERABLES
+          </span>
+        </div>
+
+        <!-- Item 1: GitLab Core & AI Gateway -->
+        <article class="px-6 py-4 transition-colors duration-150 hover:bg-slate-900/25 flex flex-col gap-2">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <span class="text-sm font-semibold text-slate-100 tracking-tight">
+              GitLab Core &amp; AI Gateway
+            </span>
+            <div class="flex items-center gap-1.5">
+              <span class="inline-flex items-center rounded border border-slate-700/80 bg-slate-900/90 px-2 py-0.5 font-mono text-[10.5px] font-medium text-slate-300">
+                MR !7641
+              </span>
+              <span class="inline-flex items-center rounded border border-emerald-500/30 bg-emerald-950/40 px-1.5 py-0.5 font-mono text-[10px] font-semibold text-emerald-400">
+                CI Passed
+              </span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-300 leading-relaxed">
+            Deterministic tool-call validation in <code class="text-slate-200 bg-slate-800/50 px-1 py-0.5 rounded">ai-assist</code> eliminating runaway loops; authored canonical Architecture Design Document (ADD).
+          </p>
+          <div class="flex flex-wrap items-center gap-1.5 pt-0.5">
+            <span class="rounded border border-slate-800 bg-[#0E121B] px-2 py-0.5 text-[10px] font-mono text-slate-400">Agent Loop Guard</span>
+            <span class="rounded border border-slate-800 bg-[#0E121B] px-2 py-0.5 text-[10px] font-mono text-slate-400">ADD</span>
+            <span class="rounded border border-slate-800 bg-[#0E121B] px-2 py-0.5 text-[10px] font-mono text-slate-400">Ruby/Go</span>
+          </div>
+        </article>
+
+        <!-- Item 2: GPU & Bare-Metal Runtime -->
+        <article class="px-6 py-4 transition-colors duration-150 hover:bg-slate-900/25 flex flex-col gap-2">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <span class="text-sm font-semibold text-slate-100 tracking-tight">
+              GPU &amp; Bare-Metal Runtime
+            </span>
+            <div class="flex items-center gap-1.5">
+              <span class="inline-flex items-center rounded border border-slate-700/80 bg-slate-900/90 px-2 py-0.5 font-mono text-[10.5px] font-medium text-slate-300">
+                CUDA 12.6
+              </span>
+              <span class="inline-flex items-center rounded border border-emerald-500/30 bg-emerald-950/40 px-1.5 py-0.5 font-mono text-[10px] font-semibold text-emerald-400">
+                Verified
+              </span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-300 leading-relaxed">
+            12-bit ACEScc color science, custom compute graphs, and DaVinci Resolve GPU plugin runtime with native Apple Metal and CUDA compute pipelines.
+          </p>
+          <div class="flex flex-wrap items-center gap-1.5 pt-0.5">
+            <span class="rounded border border-slate-800 bg-[#0E121B] px-2 py-0.5 text-[10px] font-mono text-slate-400">C++20</span>
+            <span class="rounded border border-slate-800 bg-[#0E121B] px-2 py-0.5 text-[10px] font-mono text-slate-400">Apple Metal</span>
+            <span class="rounded border border-slate-800 bg-[#0E121B] px-2 py-0.5 text-[10px] font-mono text-slate-400">OpenFX</span>
+          </div>
+        </article>
+
+        <!-- Item 3: Production Hardware & ASIC -->
+        <article class="px-6 py-4 transition-colors duration-150 hover:bg-slate-900/25 flex flex-col gap-2">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <span class="text-sm font-semibold text-slate-100 tracking-tight">
+              Production Hardware &amp; ASIC
+            </span>
+            <div class="flex items-center gap-1.5">
+              <span class="inline-flex items-center rounded border border-slate-700/80 bg-slate-900/90 px-2 py-0.5 font-mono text-[10.5px] font-medium text-slate-300">
+                TinyFC20 Rev C1
+              </span>
+              <span class="inline-flex items-center rounded border border-emerald-500/30 bg-emerald-950/40 px-1.5 py-0.5 font-mono text-[10px] font-semibold text-emerald-400">
+                0 DRC
+              </span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-300 leading-relaxed">
+            Betaflight quadcopter flight controller PCB package, complete manufacturing BOM &amp; verified 8-bit CMOS 130nm ALU cell layout.
+          </p>
+          <div class="flex flex-wrap items-center gap-1.5 pt-0.5">
+            <span class="rounded border border-slate-800 bg-[#0E121B] px-2 py-0.5 text-[10px] font-mono text-slate-400">CMOS 130nm</span>
+            <span class="rounded border border-slate-800 bg-[#0E121B] px-2 py-0.5 text-[10px] font-mono text-slate-400">DRC Clean</span>
+            <span class="rounded border border-slate-800 bg-[#0E121B] px-2 py-0.5 text-[10px] font-mono text-slate-400">KiCad</span>
+          </div>
+        </article>
+      </section>
+
+      <!-- Right Column (40% Width): Upstream Telemetry Deck -->
+      <aside class="lg:col-span-5 flex flex-col divide-y divide-white/[0.06] bg-[#0B0D13]">
+        <div class="px-6 py-2.5 bg-[#0C0F15] border-b border-white/[0.04]">
+          <span class="font-mono text-[10px] font-semibold tracking-wider uppercase text-slate-400">
+            UPSTREAM TELEMETRY DECK
+          </span>
+        </div>
+
+        <!-- Metric 1: Upstream Contributions -->
+        <div class="px-6 py-5 flex flex-col justify-center flex-1 transition-colors duration-150 hover:bg-slate-900/20">
+          <div class="font-mono text-2xl font-bold tracking-tight text-white mb-0.5">
+            1,853
+          </div>
+          <div class="text-xs font-semibold text-emerald-400 tracking-tight mb-1">
+            Upstream Contributions
+          </div>
+          <div class="text-[11px] text-slate-400 leading-snug">
+            GitLab Core, AI Gateway &amp; Terraform Provider
+          </div>
+        </div>
+
+        <!-- Metric 2: Continuous Velocity -->
+        <div class="px-6 py-5 flex flex-col justify-center flex-1 transition-colors duration-150 hover:bg-slate-900/20">
+          <div class="font-mono text-2xl font-bold tracking-tight text-white mb-0.5">
+            90 Days
+          </div>
+          <div class="text-xs font-semibold text-emerald-400 tracking-tight mb-1">
+            Continuous Velocity
+          </div>
+          <div class="text-[11px] text-slate-400 leading-snug">
+            Daily production commit cadence
+          </div>
+        </div>
+
+        <!-- Metric 3: Recognition -->
+        <div class="px-6 py-5 flex flex-col justify-center flex-1 transition-colors duration-150 hover:bg-slate-900/20">
+          <div class="font-mono text-xl font-bold tracking-tight text-white mb-0.5">
+            Tier 3 Contributor
+          </div>
+          <div class="text-xs font-semibold text-emerald-400 tracking-tight mb-1">
+            Verified Recognition
+          </div>
+          <div class="text-[11px] text-slate-400 leading-snug">
+            Top 3,800+ GitLab community leaderboard
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Bottom Control Strip: Core Systems Toolchain (Full Width) -->
+    <footer class="flex flex-wrap items-center justify-between gap-3 px-6 py-3 border-t border-white/[0.06] bg-[#07080D]">
+      <div class="flex items-center gap-2">
+        <span class="h-1 w-1 rounded-full bg-slate-500"></span>
+        <span class="font-mono text-[10px] uppercase tracking-wider text-slate-400">
+          CORE SYSTEMS TOOLCHAIN
+        </span>
+      </div>
+      <div class="flex flex-wrap items-center gap-1.5">
+        <span class="rounded border border-slate-800/80 bg-slate-900/60 px-2.5 py-0.5 font-mono text-[10.5px] text-slate-300">C++20</span>
+        <span class="rounded border border-slate-800/80 bg-slate-900/60 px-2.5 py-0.5 font-mono text-[10.5px] text-slate-300">CUDA 12.6</span>
+        <span class="rounded border border-slate-800/80 bg-slate-900/60 px-2.5 py-0.5 font-mono text-[10.5px] text-slate-300">Apple Metal</span>
+        <span class="rounded border border-slate-800/80 bg-slate-900/60 px-2.5 py-0.5 font-mono text-[10.5px] text-slate-300">Python</span>
+        <span class="rounded border border-slate-800/80 bg-slate-900/60 px-2.5 py-0.5 font-mono text-[10.5px] text-slate-300">Go</span>
+        <span class="rounded border border-slate-800/80 bg-slate-900/60 px-2.5 py-0.5 font-mono text-[10.5px] text-slate-300">TypeScript</span>
+        <span class="rounded border border-slate-800/80 bg-slate-900/60 px-2.5 py-0.5 font-mono text-[10.5px] text-slate-300">KiCad</span>
+        <span class="rounded border border-slate-800/80 bg-slate-900/60 px-2.5 py-0.5 font-mono text-[10.5px] text-slate-300">OpenFX</span>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

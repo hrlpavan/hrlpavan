@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 390" width="980" height="390">
+  <defs>
+    <clipPath id="console_outer_clip">
+      <rect width="980" height="390" rx="14"/>
+    </clipPath>
+    <linearGradient id="console_base_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090A0F"/>
+      <stop offset="100%" stop-color="#0D1016"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#console_outer_clip)">
+    <!-- Container Base -->
+    <rect x="0.5" y="0.5" width="979" height="389" rx="14" fill="url(#console_base_grad)" stroke="#1E2330" stroke-width="1"/>
+
+    <!-- ========================================== -->
+    <!-- TOP CONTROL BAR (Full Width)               -->
+    <!-- ========================================== -->
+    <rect x="0" y="0" width="980" height="56" fill="#0E1117" opacity="0.9"/>
+    <line x1="0" y1="56" x2="980" y2="56" stroke="#1E2330" stroke-width="1"/>
+
+    <!-- Eyebrow & Title -->
+    <g transform="translate(24, 21)">
+      <circle cx="3" cy="2" r="2.5" fill="#D1002D"/>
+      <text x="12" y="5" font-family="ui-monospace, 'JetBrains Mono', 'SF Mono', Menlo, monospace" font-size="9" font-weight="600" letter-spacing="1.4" fill="#94A3B8">HRL SYSTEMS ARCHITECTURE</text>
+      <text x="12" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="14" font-weight="700" letter-spacing="-0.2" fill="#F8FAFC">Production Deliverables &amp; Contribution Telemetry</text>
+    </g>
+
+    <!-- Global Delivery Indicator (Never Clips) -->
+    <g transform="translate(730, 18)">
+      <rect x="0" y="0" width="226" height="22" rx="11" fill="#042F1E" stroke="#059669" stroke-width="1"/>
+      <circle cx="12" cy="11" r="3" fill="#10B981"/>
+      <text x="21" y="14.5" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9.5" font-weight="600" letter-spacing="0.2" fill="#34D399">Live CD / Merge Train Operational</text>
+    </g>
+
+    <!-- ========================================== -->
+    <!-- BENTO GRID (60/40 SPLIT)                   -->
+    <!-- ========================================== -->
+
+    <!-- Vertical Column Divider at x=590 -->
+    <line x1="590" y1="56" x2="590" y2="345" stroke="#1E2330" stroke-width="1"/>
+
+    <!-- ========================================== -->
+    <!-- LEFT COLUMN (60%): CONTINUOUS DELIVERY     -->
+    <!-- ========================================== -->
+    <!-- Header -->
+    <rect x="0" y="56" width="590" height="26" fill="#0A0D13"/>
+    <line x1="0" y1="82" x2="590" y2="82" stroke="#1E2330" stroke-width="1"/>
+    <text x="24" y="73" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.2" fill="#64748B">VERIFIED CONTINUOUS DELIVERY DELIVERABLES</text>
+
+    <!-- Deliverable 1: GitLab Core & AI Gateway -->
+    <g transform="translate(24, 102)">
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="12" font-weight="700" fill="#F8FAFC">GitLab Core &amp; AI Gateway</text>
+      
+      <!-- Badges -->
+      <rect x="420" y="-10" width="64" height="15" rx="3" fill="#1E293B"/>
+      <text x="426" y="1" font-family="ui-monospace, monospace" font-size="9" font-weight="600" fill="#CBD5E1">MR !7641</text>
+      <rect x="490" y="-10" width="60" height="15" rx="3" fill="#064E3B"/>
+      <text x="496" y="1" font-family="ui-monospace, monospace" font-size="8.5" font-weight="700" fill="#34D399">CI Passed</text>
+      
+      <!-- Summary -->
+      <text x="0" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="10" font-weight="400" fill="#94A3B8">Deterministic tool-call validation in ai-assist eliminating runaway agent loops</text>
+      
+      <!-- Stack Pills -->
+      <rect x="0" y="27" width="102" height="16" rx="3" fill="#0E121B" stroke="#1E2330" stroke-width="1"/>
+      <text x="6" y="38.5" font-family="ui-monospace, monospace" font-size="8.5" fill="#64748B">Agent Loop Guard</text>
+      
+      <rect x="108" y="27" width="34" height="16" rx="3" fill="#0E121B" stroke="#1E2330" stroke-width="1"/>
+      <text x="114" y="38.5" font-family="ui-monospace, monospace" font-size="8.5" fill="#64748B">ADD</text>
+      
+      <rect x="148" y="27" width="54" height="16" rx="3" fill="#0E121B" stroke="#1E2330" stroke-width="1"/>
+      <text x="154" y="38.5" font-family="ui-monospace, monospace" font-size="8.5" fill="#64748B">Ruby/Go</text>
+    </g>
+
+    <!-- Subsystem Divider 1 -->
+    <line x1="24" y1="164" x2="566" y2="164" stroke="#1E2330" stroke-width="0.8"/>
+
+    <!-- Deliverable 2: GPU & Bare-Metal Runtime -->
+    <g transform="translate(24, 184)">
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="12" font-weight="700" fill="#F8FAFC">GPU &amp; Bare-Metal Runtime</text>
+      
+      <!-- Badges -->
+      <rect x="420" y="-10" width="64" height="15" rx="3" fill="#1E293B"/>
+      <text x="426" y="1" font-family="ui-monospace, monospace" font-size="9" font-weight="600" fill="#CBD5E1">CUDA 12.6</text>
+      <rect x="490" y="-10" width="60" height="15" rx="3" fill="#064E3B"/>
+      <text x="499" y="1" font-family="ui-monospace, monospace" font-size="8.5" font-weight="700" fill="#34D399">Verified</text>
+      
+      <!-- Summary -->
+      <text x="0" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="10" font-weight="400" fill="#94A3B8">12-bit ACEScc color science, custom compute graphs, and DaVinci Resolve GPU plugin</text>
+      
+      <!-- Stack Pills -->
+      <rect x="0" y="27" width="46" height="16" rx="3" fill="#0E121B" stroke="#1E2330" stroke-width="1"/>
+      <text x="6" y="38.5" font-family="ui-monospace, monospace" font-size="8.5" fill="#64748B">C++20</text>
+      
+      <rect x="52" y="27" width="76" height="16" rx="3" fill="#0E121B" stroke="#1E2330" stroke-width="1"/>
+      <text x="58" y="38.5" font-family="ui-monospace, monospace" font-size="8.5" fill="#64748B">Apple Metal</text>
+      
+      <rect x="134" y="27" width="52" height="16" rx="3" fill="#0E121B" stroke="#1E2330" stroke-width="1"/>
+      <text x="140" y="38.5" font-family="ui-monospace, monospace" font-size="8.5" fill="#64748B">OpenFX</text>
+    </g>
+
+    <!-- Subsystem Divider 2 -->
+    <line x1="24" y1="246" x2="566" y2="246" stroke="#1E2330" stroke-width="0.8"/>
+
+    <!-- Deliverable 3: Production Hardware & ASIC -->
+    <g transform="translate(24, 266)">
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="12" font-weight="700" fill="#F8FAFC">Production Hardware &amp; ASIC</text>
+      
+      <!-- Badges -->
+      <rect x="400" y="-10" width="84" height="15" rx="3" fill="#1E293B"/>
+      <text x="406" y="1" font-family="ui-monospace, monospace" font-size="8.5" font-weight="600" fill="#CBD5E1">TinyFC20 Rev C1</text>
+      <rect x="490" y="-10" width="60" height="15" rx="3" fill="#064E3B"/>
+      <text x="502" y="1" font-family="ui-monospace, monospace" font-size="8.5" font-weight="700" fill="#34D399">0 DRC</text>
+      
+      <!-- Summary -->
+      <text x="0" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="10" font-weight="400" fill="#94A3B8">Betaflight quadcopter flight controller PCB package, BOM &amp; 8-bit CMOS 130nm ALU</text>
+      
+      <!-- Stack Pills -->
+      <rect x="0" y="27" width="70" height="16" rx="3" fill="#0E121B" stroke="#1E2330" stroke-width="1"/>
+      <text x="6" y="38.5" font-family="ui-monospace, monospace" font-size="8.5" fill="#64748B">CMOS 130nm</text>
+      
+      <rect x="76" y="27" width="62" height="16" rx="3" fill="#0E121B" stroke="#1E2330" stroke-width="1"/>
+      <text x="82" y="38.5" font-family="ui-monospace, monospace" font-size="8.5" fill="#64748B">DRC Clean</text>
+      
+      <rect x="144" y="27" width="44" height="16" rx="3" fill="#0E121B" stroke="#1E2330" stroke-width="1"/>
+      <text x="150" y="38.5" font-family="ui-monospace, monospace" font-size="8.5" fill="#64748B">KiCad</text>
+    </g>
+
+    <!-- ========================================== -->
+    <!-- RIGHT COLUMN (40%): UPSTREAM TELEMETRY     -->
+    <!-- ========================================== -->
+    <!-- Header -->
+    <rect x="590" y="56" width="390" height="26" fill="#0A0D13"/>
+    <line x1="590" y1="82" x2="980" y2="82" stroke="#1E2330" stroke-width="1"/>
+    <text x="614" y="73" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.2" fill="#64748B">UPSTREAM TELEMETRY DECK</text>
+
+    <!-- Metric 1: Upstream Contributions -->
+    <g transform="translate(614, 114)">
+      <text x="0" y="0" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="24" font-weight="700" letter-spacing="-0.5" fill="#F8FAFC">1,853</text>
+      <text x="0" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11.5" font-weight="600" fill="#10B981">Upstream Contributions</text>
+      <text x="0" y="31" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="10" font-weight="400" fill="#94A3B8">GitLab Core, AI Gateway &amp; Terraform Provider</text>
+    </g>
+
+    <!-- Metric Divider 1 -->
+    <line x1="614" y1="168" x2="956" y2="168" stroke="#1E2330" stroke-width="0.8"/>
+
+    <!-- Metric 2: Continuous Velocity -->
+    <g transform="translate(614, 200)">
+      <text x="0" y="0" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="24" font-weight="700" letter-spacing="-0.5" fill="#F8FAFC">90 Days</text>
+      <text x="0" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11.5" font-weight="600" fill="#10B981">Continuous Velocity</text>
+      <text x="0" y="31" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="10" font-weight="400" fill="#94A3B8">Daily production commit cadence</text>
+    </g>
+
+    <!-- Metric Divider 2 -->
+    <line x1="614" y1="254" x2="956" y2="254" stroke="#1E2330" stroke-width="0.8"/>
+
+    <!-- Metric 3: Recognition -->
+    <g transform="translate(614, 286)">
+      <text x="0" y="0" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="20" font-weight="700" letter-spacing="-0.5" fill="#F8FAFC">Tier 3 Contributor</text>
+      <text x="0" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="11.5" font-weight="600" fill="#10B981">Verified Recognition</text>
+      <text x="0" y="31" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="10" font-weight="400" fill="#94A3B8">Top 3,800+ GitLab community leaderboard</text>
+    </g>
+
+    <!-- ========================================== -->
+    <!-- BOTTOM CONTROL STRIP (Full Width)          -->
+    <!-- ========================================== -->
+    <rect x="0" y="345" width="980" height="45" fill="#07080D"/>
+    <line x1="0" y1="345" x2="980" y2="345" stroke="#1E2330" stroke-width="1"/>
+
+    <g transform="translate(24, 372)">
+      <circle cx="2" cy="-4" r="2" fill="#64748B"/>
+      <text x="10" y="0" font-family="ui-monospace, 'JetBrains Mono', monospace" font-size="9" font-weight="700" letter-spacing="1.2" fill="#64748B">CORE SYSTEMS TOOLCHAIN</text>
+    </g>
+
+    <!-- Tech Chips -->
+    <g transform="translate(210, 360)">
+      <!-- C++20 -->
+      <rect x="0" y="0" width="50" height="22" rx="4" fill="#0F131D" stroke="#1E2330" stroke-width="1"/>
+      <text x="9" y="15" font-family="ui-monospace, monospace" font-size="10" fill="#CBD5E1">C++20</text>
+
+      <!-- CUDA 12.6 -->
+      <rect x="58" y="0" width="76" height="22" rx="4" fill="#0F131D" stroke="#1E2330" stroke-width="1"/>
+      <text x="67" y="15" font-family="ui-monospace, monospace" font-size="10" fill="#CBD5E1">CUDA 12.6</text>
+
+      <!-- Apple Metal -->
+      <rect x="142" y="0" width="86" height="22" rx="4" fill="#0F131D" stroke="#1E2330" stroke-width="1"/>
+      <text x="151" y="15" font-family="ui-monospace, monospace" font-size="10" fill="#CBD5E1">Apple Metal</text>
+
+      <!-- Python -->
+      <rect x="236" y="0" width="58" height="22" rx="4" fill="#0F131D" stroke="#1E2330" stroke-width="1"/>
+      <text x="245" y="15" font-family="ui-monospace, monospace" font-size="10" fill="#CBD5E1">Python</text>
+
+      <!-- Go -->
+      <rect x="302" y="0" width="36" height="22" rx="4" fill="#0F131D" stroke="#1E2330" stroke-width="1"/>
+      <text x="311" y="15" font-family="ui-monospace, monospace" font-size="10" fill="#CBD5E1">Go</text>
+
+      <!-- TypeScript -->
+      <rect x="346" y="0" width="78" height="22" rx="4" fill="#0F131D" stroke="#1E2330" stroke-width="1"/>
+      <text x="355" y="15" font-family="ui-monospace, monospace" font-size="10" fill="#CBD5E1">TypeScript</text>
+
+      <!-- KiCad -->
+      <rect x="432" y="0" width="52" height="22" rx="4" fill="#0F131D" stroke="#1E2330" stroke-width="1"/>
+      <text x="441" y="15" font-family="ui-monospace, monospace" font-size="10" fill="#CBD5E1">KiCad</text>
+
+      <!-- OpenFX -->
+      <rect x="492" y="0" width="60" height="22" rx="4" fill="#0F131D" stroke="#1E2330" stroke-width="1"/>
+      <text x="501" y="15" font-family="ui-monospace, monospace" font-size="10" fill="#CBD5E1">OpenFX</text>
+    </g>
+  </g>
+</svg>

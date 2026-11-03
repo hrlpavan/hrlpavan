@@ -83,23 +83,12 @@ I operate on an **async-first, handbook-driven** workflow aligned with GitLab's 
 <div align="center">
   <p align="center">
     <a href="https://github.com/hrlpavan">
-      <img src="https://streak-stats.demolab.com/?user=hrlpavan&theme=dark&background=0B0E14&border=D4AF37&stroke=D4AF37&ring=D4AF37&fire=FFD700&currStreakNum=FFD700&sideNums=D4AF37&currStreakLabel=FFD700&sideLabels=E5C158&dates=C5A059&border_radius=10" alt="Contribution Streak" width="490" height="195" />
-    </a>
-    <a href="https://github.com/hrlpavan">
-      <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/executive-achievements.svg" alt="Executive Achievements & Systems Impact" width="490" height="195" />
+      <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/unified-systems-console.svg" alt="HRL Systems Architecture — Unified Delivery & Telemetry Console" width="980" />
     </a>
   </p>
   <p align="center">
     <a href="https://github.com/hrlpavan">
-      <img src="https://github-readme-stats-fast.vercel.app/api?username=hrlpavan&show_icons=true&hide_rank=true&include_all_commits=true&card_width=490&bg_color=0B0E14&title_color=FFD700&text_color=E5C158&icon_color=D4AF37&border_color=D4AF37&border_radius=10" alt="GitHub Stats" width="490" height="195" />
-    </a>
-    <a href="https://github.com/hrlpavan">
-      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=hrlpavan&layout=compact&card_width=490&langs_count=8&bg_color=0B0E14&title_color=FFD700&text_color=E5C158&border_color=D4AF37&border_radius=10" alt="Most Used Languages" width="490" height="195" />
-    </a>
-  </p>
-  <p align="center">
-    <a href="https://github.com/hrlpavan">
-      <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/github-contribution-grid-snake-dark.svg" alt="Autonomous Contribution Telemetry Grid Snake" width="985" />
+      <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/github-contribution-grid-snake-dark.svg" alt="Autonomous Contribution Telemetry Grid Snake" width="980" />
     </a>
   </p>
 </div>
