@@ -1,66 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195">
   <defs>
-    <clipPath id="card_clip">
-      <rect width="495" height="195" rx="10"/>
+    <clipPath id="hrl_card_clip">
+      <rect width="495" height="195" rx="12"/>
     </clipPath>
+    <linearGradient id="hrl_crimson_grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D1002D"/>
+      <stop offset="100%" stop-color="#FF3360"/>
+    </linearGradient>
     <linearGradient id="gold_grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFD700"/>
       <stop offset="100%" stop-color="#E5C158"/>
     </linearGradient>
-    <linearGradient id="bg_grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B0E14"/>
-      <stop offset="100%" stop-color="#0F141C"/>
+    <linearGradient id="bg_dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0A0C"/>
+      <stop offset="100%" stop-color="#121216"/>
     </linearGradient>
   </defs>
 
-  <g clip-path="url(#card_clip)">
-    <!-- Base Card Container -->
-    <rect x="0.5" y="0.5" width="494" height="194" rx="10" fill="url(#bg_grad)" stroke="#D4AF37" stroke-width="1"/>
+  <g clip-path="url(#hrl_card_clip)">
+    <!-- Base Card Container: Apple-Caliber Minimalist OLED Surface -->
+    <rect x="0.5" y="0.5" width="494" height="194" rx="12" fill="url(#bg_dark)" stroke="#D4AF37" stroke-width="1"/>
 
     <!-- Header Section -->
-    <g transform="translate(18, 24)">
-      <!-- Gold Star / Trophy Badge Icon -->
-      <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="#FFD700" transform="scale(0.8) translate(0, -6)"/>
-      <text x="24" y="9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.2" fill="url(#gold_grad)">EXECUTIVE ACHIEVEMENTS &amp; SYSTEMS IMPACT</text>
+    <g transform="translate(20, 24)">
+      <!-- Precision Vector Geometric Emblem (HRL Diamond / Grid) -->
+      <path d="M0 6L6 0L12 6L6 12Z" fill="url(#hrl_crimson_grad)"/>
+      <circle cx="6" cy="6" r="2" fill="#FFFFFF"/>
       
-      <!-- Verified Status Pill -->
-      <rect x="362" y="-5" width="96" height="18" rx="9" fill="#0E2319" stroke="#00C853" stroke-width="1"/>
-      <circle cx="372" cy="4" r="3.5" fill="#00E676"/>
-      <text x="380" y="8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="9" font-weight="700" letter-spacing="0.5" fill="#00E676">VERIFIED 2026</text>
+      <text x="20" y="7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700" letter-spacing="1.4" fill="url(#hrl_crimson_grad)">HRL SYSTEMS ARCHITECTURE</text>
+      <text x="20" y="19" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0.4" fill="#FFFFFF">VERIFIED PRODUCTION DELIVERABLES</text>
+      
+      <!-- Executive Status Pill: Verified Corporate Standard -->
+      <rect x="362" y="1" width="94" height="18" rx="9" fill="#0C1B13" stroke="#00C853" stroke-width="1"/>
+      <circle cx="372" cy="10" r="3" fill="#00E676"/>
+      <text x="380" y="13" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="8.5" font-weight="700" letter-spacing="0.8" fill="#00E676">VERIFIED 2026</text>
     </g>
 
-    <!-- Dividing Line -->
-    <line x1="18" y1="38" x2="477" y2="38" stroke="#1F2937" stroke-width="1"/>
+    <!-- Subtle Technical Dividing Line -->
+    <line x1="20" y1="52" x2="475" y2="52" stroke="#222228" stroke-width="1"/>
 
-    <!-- Achievement 1: GitLab Loop Guard -->
-    <g transform="translate(18, 57)">
-      <circle cx="5" cy="-4" r="3" fill="#FFD700"/>
-      <text x="16" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="11" font-weight="700" fill="#F8FAFC">GitLab AI Loop Safety:</text>
-      <text x="140" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="10.5" fill="#E5C158">MR !7641 Runaway Agent Prevention &amp; ADD</text>
-      <text x="16" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="9" fill="#94A3B8">Deterministic tool-call guardrails in GitLab AI Gateway (ai-assist) preventing cyclic execution</text>
+    <!-- Deliverable 1: GitLab AI Loop Guard -->
+    <g transform="translate(20, 71)">
+      <rect x="0" y="-8" width="2" height="24" fill="#D1002D"/>
+      <text x="12" y="0" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">GitLab Core &amp; AI Gateway:</text>
+      <text x="160" y="0" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#E5C158">MR !7641 Agent Loop Guard &amp; ADD</text>
+      <text x="12" y="13" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="9" font-weight="400" fill="#A1A1AA">Deterministic tool-call validation in ai-assist eliminating cyclic execution</text>
     </g>
 
-    <!-- Achievement 2: Bare-Metal Systems & GPU -->
-    <g transform="translate(18, 91)">
-      <circle cx="5" cy="-4" r="3" fill="#FFD700"/>
-      <text x="16" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="11" font-weight="700" fill="#F8FAFC">GPU &amp; Bare-Metal Systems:</text>
-      <text x="176" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="10.5" fill="#E5C158">C++20, CUDA 12.6, Apple Metal &amp; OpenFX</text>
-      <text x="16" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="9" fill="#94A3B8">12-bit ACEScc color science, custom compute graphs, DaVinci Resolve GPU plugin engine</text>
+    <!-- Deliverable 2: HPC & GPU Systems -->
+    <g transform="translate(20, 105)">
+      <rect x="0" y="-8" width="2" height="24" fill="#D4AF37"/>
+      <text x="12" y="0" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">GPU &amp; Bare-Metal Systems:</text>
+      <text x="176" y="0" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#E5C158">C++20, CUDA 12.6, Apple Metal, OpenFX</text>
+      <text x="12" y="13" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="9" font-weight="400" fill="#A1A1AA">12-bit ACEScc color science, custom compute graphs, DaVinci Resolve GPU plugin</text>
     </g>
 
-    <!-- Achievement 3: Hardware & ASIC Verification -->
-    <g transform="translate(18, 125)">
-      <circle cx="5" cy="-4" r="3" fill="#FFD700"/>
-      <text x="16" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="11" font-weight="700" fill="#F8FAFC">Production Hardware &amp; ASIC:</text>
-      <text x="180" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="10.5" fill="#E5C158">TinyFC20 Rev C1 (0 DRC) &amp; CMOS 130nm</text>
-      <text x="16" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="9" fill="#94A3B8">Production Betaflight flight controller PCB package, complete BOM &amp; verified 8-bit ALU layout</text>
+    <!-- Deliverable 3: Hardware & ASIC -->
+    <g transform="translate(20, 139)">
+      <rect x="0" y="-8" width="2" height="24" fill="#60A5FA"/>
+      <text x="12" y="0" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Production Hardware &amp; ASIC:</text>
+      <text x="180" y="0" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="10.5" font-weight="600" fill="#E5C158">TinyFC20 Rev C1 (0 DRC) &amp; CMOS 130nm</text>
+      <text x="12" y="13" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="9" font-weight="400" fill="#A1A1AA">Betaflight quadcopter flight controller PCB package, manufacturing BOM &amp; ALU layout</text>
     </g>
 
-    <!-- Bottom Metric Footnote Banner -->
-    <g transform="translate(18, 153)">
-      <rect x="0" y="0" width="459" height="28" rx="6" fill="#111827" stroke="#1F2937" stroke-width="1"/>
-      <text x="14" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="9.5" font-weight="600" fill="#CBD5E1">
-        🚀 <tspan fill="#FFD700" font-weight="700">1,850+ Contributions</tspan> · <tspan fill="#FFD700" font-weight="700">90-Day Active Streak</tspan> · <tspan fill="#60A5FA" font-weight="700">GitLab Community Featured (Oct 2026)</tspan>
+    <!-- Bottom Telemetry Metric Strip -->
+    <g transform="translate(20, 161)">
+      <rect x="0" y="0" width="455" height="22" rx="4" fill="#16161C" stroke="#25252E" stroke-width="1"/>
+      <text x="12" y="14" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" font-weight="600" letter-spacing="0.6" fill="#A1A1AA">
+        TELEMETRY: <tspan fill="#FFD700" font-weight="700">1,853 CONTRIBUTIONS</tspan> · <tspan fill="#FFD700" font-weight="700">90-DAY STREAK</tspan> · <tspan fill="#FFFFFF" font-weight="700">GITLAB LEVEL 3 CONTRIBUTOR</tspan>
       </text>
     </g>
   </g>
