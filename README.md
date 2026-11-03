@@ -83,6 +83,17 @@ I operate on an **async-first, handbook-driven** workflow aligned with GitLab's 
 <div align="center">
   <p align="center">
     <a href="https://github.com/hrlpavan">
+      <img src="https://streak-stats.demolab.com/?user=hrlpavan&theme=tokyonight" alt="Contribution Streak" height="160" />
+    </a>
+    <a href="https://github.com/hrlpavan">
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=hrlpavan&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="160" />
+    </a>
+    <a href="https://github.com/hrlpavan">
+      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=hrlpavan&layout=compact&theme=tokyonight" alt="Most Used Languages" height="160" />
+    </a>
+  </p>
+  <p align="center">
+    <a href="https://github.com/hrlpavan">
       <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/unified-systems-console.svg" alt="HRL Systems Architecture — Unified Delivery & Telemetry Console" width="980" />
     </a>
   </p>
