@@ -1,4 +1,5 @@
 import React from "react";
+import { LiveGitLabScoreCard } from "./LiveGitLabScoreCard";
 
 interface DeliverableItem {
   id: string;
@@ -55,11 +56,6 @@ const telemetryMetrics: TelemetryMetric[] = [
     value: "90 Days",
     label: "Continuous Velocity",
     subtext: "Daily production commit cadence",
-  },
-  {
-    value: "Top 7 Global",
-    label: "GitLab Global Hackathon",
-    subtext: "Top 7 worldwide placement · Contributor Level 3 (3,868 pts)",
   },
 ];
 
@@ -174,6 +170,9 @@ export const UnifiedSystemsConsole: React.FC = () => {
               </div>
             </div>
           ))}
+
+          {/* Metric 3: Live-Updating GitLab Contributor Scorecard */}
+          <LiveGitLabScoreCard />
         </aside>
       </div>
 

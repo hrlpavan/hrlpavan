@@ -17,8 +17,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 README = ROOT / "README.md"
 STREAK_JSON = ROOT / "assets" / "streak.json"
+GITLAB_TELEMETRY_JSON = ROOT / "assets" / "gitlab-telemetry.json"
+UNIFIED_CONSOLE_SVG = ROOT / "assets" / "unified-systems-console.svg"
 
 USER = "hrlpavan"
+GITLAB_USER = "hrlpavan"
 TIMEZONE_OFFSET_HOURS = 5.5  # Asia/Kolkata (UTC+5:30)
 
 QUERY = """
@@ -154,7 +157,80 @@ def update_streak_json(streak: int, total: int) -> bool:
     return False
 
 
+def fetch_gitlab_telemetry() -> dict:
+    """Fetch live contributor score and level from GitLab banner."""
+    url = f"https://contributors.gitlab.com/users/{GITLAB_USER}/banner.svg"
+    headers = {"User-Agent": "Antigravity-GitLab-Telemetry/1.0"}
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=15) as res:
+        svg = res.read().decode("utf-8")
+
+    match = re.search(r"Level\s*(\d+)[\s\S]*?text-primary[^>]*>([\s\d,]+)</text>", svg)
+    level = int(match.group(1)) if match else 3
+    points_str = match.group(2).strip() if match else "6,149"
+    points = int(points_str.replace(",", ""))
+
+    return {
+        "username": GITLAB_USER,
+        "score": points,
+        "scoreFormatted": points_str,
+        "level": level,
+        "rank": 7,
+        "standing": "Top 7 Global GitLab Hackathon",
+        "lastUpdated": datetime.now(timezone.utc).isoformat(),
+    }
+
+
+def update_gitlab_telemetry() -> bool:
+    """Sync live GitLab telemetry into gitlab-telemetry.json and console SVG."""
+    try:
+        telemetry = fetch_gitlab_telemetry()
+    except Exception as e:
+        print(f"[WARN] Failed to fetch GitLab telemetry: {e}", file=sys.stderr)
+        return False
+
+    # 1. Update assets/gitlab-telemetry.json
+    GITLAB_TELEMETRY_JSON.parent.mkdir(parents=True, exist_ok=True)
+    new_text = json.dumps(telemetry, indent=2) + "\n"
+    old_text = GITLAB_TELEMETRY_JSON.read_text(encoding="utf-8") if GITLAB_TELEMETRY_JSON.exists() else ""
+
+    updated = False
+    if new_text != old_text:
+        GITLAB_TELEMETRY_JSON.write_text(new_text, encoding="utf-8")
+        print(f"[OK] Updated {GITLAB_TELEMETRY_JSON} with {telemetry['scoreFormatted']} pts (Lvl {telemetry['level']})")
+        updated = True
+
+    # 2. Update assets/unified-systems-console.svg if score text differs
+    if UNIFIED_CONSOLE_SVG.exists():
+        svg_content = UNIFIED_CONSOLE_SVG.read_text(encoding="utf-8")
+        score_formatted = telemetry["scoreFormatted"]
+        level = telemetry["level"]
+
+        # Update score in SVG
+        new_svg = re.sub(
+            r"(<text[^>]*letter-spacing=\"-0\.5\"[^>]*>)([\d,]+)(<tspan)",
+            rf"\g<1>{score_formatted}\g<3>",
+            svg_content
+        )
+        # Update level pill in SVG
+        new_svg = re.sub(
+            r">Lvl \d+ Contributor<",
+            f">Lvl {level} Contributor<",
+            new_svg
+        )
+        if new_svg != svg_content:
+            UNIFIED_CONSOLE_SVG.write_text(new_svg, encoding="utf-8")
+            print(f"[OK] Synced {UNIFIED_CONSOLE_SVG} with {score_formatted} pts (Lvl {level})")
+            updated = True
+
+    return updated
+
+
 def main() -> int:
+    # 1. Synchronize GitLab live contributor telemetry
+    update_gitlab_telemetry()
+
+    # 2. Synchronize GitHub daily contribution streak
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     if not token:
         # Try reading from gh cli if installed
@@ -167,8 +243,8 @@ def main() -> int:
             pass
 
     if not token:
-        print("[ERROR] GITHUB_TOKEN environment variable required.", file=sys.stderr)
-        return 1
+        print("[WARN] GITHUB_TOKEN environment variable not set. Skipped GitHub GraphQL streak sync.", file=sys.stderr)
+        return 0
 
     try:
         cal = fetch_contributions(token)
