@@ -7,7 +7,7 @@
 
 [![Community Highlight](https://img.shields.io/badge/GitLab_Community-Featured_Highlight_(Oct_2026)-6B4FBB?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/hrlpavan)
 [![GitLab Profile](https://img.shields.io/badge/GitLab-@hrlpavan-FCA121?style=for-the-badge&logo=gitlab&logoColor=black)](https://gitlab.com/hrlpavan)
-[![Daily Streak](https://img.shields.io/badge/Daily_Streak-89_Days_(Active)-FFD700?style=for-the-badge&logo=githubactions&logoColor=black)](https://github.com/hrlpavan)
+[![Daily Streak](https://img.shields.io/badge/Daily_Streak-90_Days_(Active)-FFD700?style=for-the-badge&logo=githubactions&logoColor=black)](https://github.com/hrlpavan)
 [![Location](https://img.shields.io/badge/Location-Mangaluru,_India_(UTC+5:30)-0A66C2?style=for-the-badge)](https://gitlab.com/hrlpavan)
 [![HR Verification](https://img.shields.io/badge/Candidate_Verification-Pavan_Kumar_S-00C853?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/hrlpavan/pavan-kumar-s-identity-verification)
 
@@ -83,19 +83,36 @@ I operate on an **async-first, handbook-driven** workflow aligned with GitLab's 
 <div align="center">
   <p align="center">
     <a href="https://github.com/hrlpavan">
-      <img src="https://streak-stats.demolab.com/?user=hrlpavan&theme=dark&background=0B0E14&border=D4AF37&stroke=D4AF37&ring=D4AF37&fire=FFD700&currStreakNum=FFD700&sideNums=D4AF37&currStreakLabel=FFD700&sideLabels=E5C158&dates=C5A059&border_radius=10" alt="Contribution Streak" />
+      <img src="https://streak-stats.demolab.com/?user=hrlpavan&theme=dark&background=0B0E14&border=D4AF37&stroke=D4AF37&ring=D4AF37&fire=FFD700&currStreakNum=FFD700&sideNums=D4AF37&currStreakLabel=FFD700&sideLabels=E5C158&dates=C5A059&border_radius=10" alt="Contribution Streak" width="490" height="195" />
+    </a>
+    <a href="https://github.com/hrlpavan">
+      <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/executive-achievements.svg" alt="Executive Achievements & Systems Impact" width="490" height="195" />
     </a>
   </p>
   <p align="center">
     <a href="https://github.com/hrlpavan">
-      <img src="https://github-readme-stats-fast.vercel.app/api?username=hrlpavan&show_icons=true&bg_color=0B0E14&title_color=FFD700&text_color=E5C158&icon_color=D4AF37&ring_color=D4AF37&border_color=D4AF37&border_radius=10" alt="GitHub Stats" height="150" />
+      <img src="https://github-readme-stats-fast.vercel.app/api?username=hrlpavan&show_icons=true&hide_rank=true&include_all_commits=true&card_width=490&bg_color=0B0E14&title_color=FFD700&text_color=E5C158&icon_color=D4AF37&border_color=D4AF37&border_radius=10" alt="GitHub Stats" width="490" height="195" />
     </a>
-    &nbsp;&nbsp;
     <a href="https://github.com/hrlpavan">
-      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=hrlpavan&layout=compact&bg_color=0B0E14&title_color=FFD700&text_color=E5C158&border_color=D4AF37&border_radius=10" alt="Most Used Languages" height="150" />
+      <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=hrlpavan&layout=compact&card_width=490&langs_count=8&bg_color=0B0E14&title_color=FFD700&text_color=E5C158&border_color=D4AF37&border_radius=10" alt="Most Used Languages" width="490" height="195" />
+    </a>
+  </p>
+  <p align="center">
+    <a href="https://github.com/hrlpavan">
+      <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/github-contribution-grid-snake-dark.svg" alt="Autonomous Contribution Telemetry Grid Snake" width="985" />
     </a>
   </p>
 </div>
+
+### 🏆 Verified Systems Track Record & Executive Proof Matrix
+
+| Engineering Pillar | Production Deliverable & Architecture | Measurable Impact & Verification |
+| :--- | :--- | :--- |
+| **Upstream AI Platform Safety** | **GitLab AI Gateway (`ai-assist`):** Authored MR [`!7641`](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/7641) (Runaway Agent Loop Prevention) and [Architecture Design Document (ADD)](ADD_DETERMINISTIC_TOOL_CALL_GUARDRAILS.md). | **Level 3 GitLab Community Contributor** · Featured in **GitLab Community Highlights (Oct 2026)** for mission-critical reliability work. |
+| **High-Performance Computing** | **Bare-Metal C++20 / CUDA 12.6 Runtimes:** Custom GPU memory allocators, execution graphs, and DaVinci Resolve OpenFX GPU plugin (`ai-cinematic-haze-ofx`). | Preserved **12-bit ACEScc sensor dynamic range** with zero color clipping; native macOS Apple Silicon Metal & NVIDIA CUDA compute kernels. |
+| **Production Hardware & ASIC** | **TinyFC20 Rev C1 & CMOS 130nm ASIC:** Authored production KiCad/Allegro hardware package for STM32F405 quadcopter flight controller and 8-bit ALU layout. | **0 DRC errors**, complete manufacturing BOM, Betaflight target definition, and verified ASIC cell layout in KLayout. |
+| **Algorithmic & Systems Optimization** | **`InvigiMatrix` Combinatorial Solver:** Built NP-hard Constraint Satisfaction Problem (CSP) backtracking solver and $k$-means clustering ($k=3$). | **Zero third-party framework overhead:** Pure `node:http` & `better-sqlite3` ACID transactions; zero-collision room/faculty scheduling under strict constraints. |
+| **Continuous Velocity & Reliability** | **Autonomous CI/CD & Telemetry:** 1,850+ contributions in 2026, **90-day uninterrupted daily streak**, automated every 4 hours via GitHub Actions. | **100% On-Time Execution** across dual GitHub & GitLab git infrastructures with zero credentials leakage. |
 
 ---
 

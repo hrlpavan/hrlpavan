@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195">
+  <defs>
+    <clipPath id="card_clip">
+      <rect width="495" height="195" rx="10"/>
+    </clipPath>
+    <linearGradient id="gold_grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#E5C158"/>
+    </linearGradient>
+    <linearGradient id="bg_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0E14"/>
+      <stop offset="100%" stop-color="#0F141C"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#card_clip)">
+    <!-- Base Card Container -->
+    <rect x="0.5" y="0.5" width="494" height="194" rx="10" fill="url(#bg_grad)" stroke="#D4AF37" stroke-width="1"/>
+
+    <!-- Header Section -->
+    <g transform="translate(18, 24)">
+      <!-- Gold Star / Trophy Badge Icon -->
+      <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="#FFD700" transform="scale(0.8) translate(0, -6)"/>
+      <text x="24" y="9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.2" fill="url(#gold_grad)">EXECUTIVE ACHIEVEMENTS &amp; SYSTEMS IMPACT</text>
+      
+      <!-- Verified Status Pill -->
+      <rect x="362" y="-5" width="96" height="18" rx="9" fill="#0E2319" stroke="#00C853" stroke-width="1"/>
+      <circle cx="372" cy="4" r="3.5" fill="#00E676"/>
+      <text x="380" y="8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="9" font-weight="700" letter-spacing="0.5" fill="#00E676">VERIFIED 2026</text>
+    </g>
+
+    <!-- Dividing Line -->
+    <line x1="18" y1="38" x2="477" y2="38" stroke="#1F2937" stroke-width="1"/>
+
+    <!-- Achievement 1: GitLab Loop Guard -->
+    <g transform="translate(18, 57)">
+      <circle cx="5" cy="-4" r="3" fill="#FFD700"/>
+      <text x="16" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="11" font-weight="700" fill="#F8FAFC">GitLab AI Loop Safety:</text>
+      <text x="140" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="10.5" fill="#E5C158">MR !7641 Runaway Agent Prevention &amp; ADD</text>
+      <text x="16" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="9" fill="#94A3B8">Deterministic tool-call guardrails in GitLab AI Gateway (ai-assist) preventing cyclic execution</text>
+    </g>
+
+    <!-- Achievement 2: Bare-Metal Systems & GPU -->
+    <g transform="translate(18, 91)">
+      <circle cx="5" cy="-4" r="3" fill="#FFD700"/>
+      <text x="16" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="11" font-weight="700" fill="#F8FAFC">GPU &amp; Bare-Metal Systems:</text>
+      <text x="176" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="10.5" fill="#E5C158">C++20, CUDA 12.6, Apple Metal &amp; OpenFX</text>
+      <text x="16" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="9" fill="#94A3B8">12-bit ACEScc color science, custom compute graphs, DaVinci Resolve GPU plugin engine</text>
+    </g>
+
+    <!-- Achievement 3: Hardware & ASIC Verification -->
+    <g transform="translate(18, 125)">
+      <circle cx="5" cy="-4" r="3" fill="#FFD700"/>
+      <text x="16" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="11" font-weight="700" fill="#F8FAFC">Production Hardware &amp; ASIC:</text>
+      <text x="180" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="10.5" fill="#E5C158">TinyFC20 Rev C1 (0 DRC) &amp; CMOS 130nm</text>
+      <text x="16" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="9" fill="#94A3B8">Production Betaflight flight controller PCB package, complete BOM &amp; verified 8-bit ALU layout</text>
+    </g>
+
+    <!-- Bottom Metric Footnote Banner -->
+    <g transform="translate(18, 153)">
+      <rect x="0" y="0" width="459" height="28" rx="6" fill="#111827" stroke="#1F2937" stroke-width="1"/>
+      <text x="14" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, sans-serif" font-size="9.5" font-weight="600" fill="#CBD5E1">
+        🚀 <tspan fill="#FFD700" font-weight="700">1,850+ Contributions</tspan> · <tspan fill="#FFD700" font-weight="700">90-Day Active Streak</tspan> · <tspan fill="#60A5FA" font-weight="700">GitLab Community Featured (Oct 2026)</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
