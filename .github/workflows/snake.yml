@@ -36,8 +36,21 @@ jobs:
         with:
           github_user_name: hrlpavan
           outputs: |
-            assets/github-contribution-grid-snake.svg
-            assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ff4d7a&color_dots=#161b22,#ffb3c6,#ff668a,#ff3360,#D1002D
+            assets/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#FFE066&color_dots=#121216,#3D3012,#7E6219,#D4AF37,#FFD700
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#FFE066&color_dots=#121216,#3D3012,#7E6219,#D4AF37,#FFD700
+
+      - name: Inject Metallic Glow Filter on Contribution Snake
+        run: |
+          python3 -c "
+          from pathlib import Path
+          for f in ['assets/github-contribution-grid-snake-dark.svg', 'assets/github-contribution-grid-snake.svg']:
+              p = Path(f)
+              if p.exists():
+                  c = p.read_text(encoding='utf-8')
+                  if 'filter:drop-shadow' not in c:
+                      c = c.replace('.s{shape-rendering:geometricPrecision;fill:var(--cs);', '.s{shape-rendering:geometricPrecision;fill:var(--cs);filter:drop-shadow(0 0 3px rgba(255,215,0,0.85)) drop-shadow(0 0 7px rgba(212,175,55,0.55));')
+                      p.write_text(c, encoding='utf-8')
+          "
 
       - name: Commit & Push Telemetry Assets
         uses: EndBug/add-and-commit@v9
