@@ -5,11 +5,11 @@
 **AI Systems Chief Architect @ [HRL International Pvt. Ltd.](https://hrlpavan.github.io/hrl-international-website-/)** · **GitLab Level 3 Community Contributor**  
 *Architecting high-throughput distributed backends, polyglot AI agent runtimes, and GPU-accelerated inference systems.*
 
-[![Community Highlight](https://img.shields.io/badge/GitLab_Community-Featured_Highlight_(Oct_2026)-6B4FBB?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/hrlpavan)
-[![GitLab Profile](https://img.shields.io/badge/GitLab-@hrlpavan-FCA121?style=for-the-badge&logo=gitlab&logoColor=black)](https://gitlab.com/hrlpavan)
-[![Daily Streak](https://img.shields.io/badge/Daily_Streak-90_Days_(Active)-FFD700?style=for-the-badge&logo=githubactions&logoColor=black)](https://github.com/hrlpavan)
-[![Corporate Motto](https://img.shields.io/badge/HRL_International-We_Can_Do_Everything_Related_To_Software_Sector_Without_Any_Excuses!-D1002D?style=for-the-badge)](https://hrlpavan.github.io/hrl-international-website-/)
-[![HR Verification](https://img.shields.io/badge/Candidate_Verification-Pavan_Kumar_S-00C853?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/hrlpavan/pavan-kumar-s-identity-verification)
+<p align="center">
+  <a href="https://github.com/hrlpavan">
+    <img src="https://raw.githubusercontent.com/hrlpavan/hrlpavan/main/assets/milestone-matrix.svg" alt="HRL International — Verified Production Milestones & Engineering Track Record" width="980" />
+  </a>
+</p>
 
 ---
 

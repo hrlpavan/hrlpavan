@@ -19,6 +19,7 @@ README = ROOT / "README.md"
 STREAK_JSON = ROOT / "assets" / "streak.json"
 GITLAB_TELEMETRY_JSON = ROOT / "assets" / "gitlab-telemetry.json"
 UNIFIED_CONSOLE_SVG = ROOT / "assets" / "unified-systems-console.svg"
+MILESTONE_MATRIX_SVG = ROOT / "assets" / "milestone-matrix.svg"
 
 USER = "hrlpavan"
 GITLAB_USER = "hrlpavan"
@@ -109,27 +110,56 @@ def calculate_active_streak(calendar: dict) -> int:
 
 
 def update_readme(streak: int) -> bool:
-    """Update README.md with the current streak badge."""
+    """Update README.md with the current streak metrics."""
     if not README.exists():
         print(f"[WARN] {README} does not exist.")
         return False
 
     content = README.read_text(encoding="utf-8")
-    pattern = r"Daily_Streak-\d+_Days_\(Active\)"
-    replacement = f"Daily_Streak-{streak}_Days_(Active)"
+    updated = False
 
-    if not re.search(pattern, content):
-        print("[WARN] Could not find Daily_Streak pattern in README.md")
-        return False
+    # 1. Update text badge if present
+    badge_pattern = r"Daily_Streak-\d+_Days_\(Active\)"
+    if re.search(badge_pattern, content):
+        content = re.sub(badge_pattern, f"Daily_Streak-{streak}_Days_(Active)", content)
+        updated = True
 
-    new_content, count = re.subn(pattern, replacement, content)
-    if new_content != content:
-        README.write_text(new_content, encoding="utf-8")
-        print(f"[OK] Updated README.md streak badge to: {streak} Days (Active)")
+    # 2. Update table text (e.g. 90-day uninterrupted daily streak)
+    table_pattern = r"\b\d+-day uninterrupted daily streak\b"
+    if re.search(table_pattern, content):
+        content = re.sub(table_pattern, f"{streak}-day uninterrupted daily streak", content)
+        updated = True
+
+    if updated:
+        README.write_text(content, encoding="utf-8")
+        print(f"[OK] Updated README.md streak reference to: {streak} Days")
         return True
-    else:
-        print(f"[INFO] README.md already up to date with {streak} Days (Active)")
-        return False
+    return False
+
+
+def update_streak_in_svgs(streak: int) -> bool:
+    """Synchronize active streak into milestone matrix and console SVGs."""
+    updated = False
+
+    # 1. Update milestone matrix SVG (Slot 7)
+    if MILESTONE_MATRIX_SVG.exists():
+        svg_content = MILESTONE_MATRIX_SVG.read_text(encoding="utf-8")
+        new_svg = re.sub(r">\d+-DAY CONTINUOUS STREAK<", f">{streak}-DAY CONTINUOUS STREAK<", svg_content)
+        if new_svg != svg_content:
+            MILESTONE_MATRIX_SVG.write_text(new_svg, encoding="utf-8")
+            print(f"[OK] Synced {MILESTONE_MATRIX_SVG} with {streak}-DAY streak")
+            updated = True
+
+    # 2. Update unified console SVG (Metric 2)
+    if UNIFIED_CONSOLE_SVG.exists():
+        svg_content = UNIFIED_CONSOLE_SVG.read_text(encoding="utf-8")
+        new_svg = re.sub(r">(?:\d+ Days)<", f">{streak} Days<", svg_content)
+        if new_svg != svg_content:
+            UNIFIED_CONSOLE_SVG.write_text(new_svg, encoding="utf-8")
+            print(f"[OK] Synced {UNIFIED_CONSOLE_SVG} with {streak} Days")
+            updated = True
+
+    return updated
 
 
 def update_streak_json(streak: int, total: int) -> bool:
@@ -223,6 +253,21 @@ def update_gitlab_telemetry() -> bool:
             print(f"[OK] Synced {UNIFIED_CONSOLE_SVG} with {score_formatted} pts (Lvl {level})")
             updated = True
 
+    # 3. Update assets/milestone-matrix.svg with live score
+    if MILESTONE_MATRIX_SVG.exists():
+        matrix_svg = MILESTONE_MATRIX_SVG.read_text(encoding="utf-8")
+        score_formatted = telemetry["scoreFormatted"]
+        level = telemetry["level"]
+        new_matrix = re.sub(
+            r">LVL \d+ · [\d,]+ PTS<",
+            f">LVL {level} · {score_formatted} PTS<",
+            matrix_svg
+        )
+        if new_matrix != matrix_svg:
+            MILESTONE_MATRIX_SVG.write_text(new_matrix, encoding="utf-8")
+            print(f"[OK] Synced {MILESTONE_MATRIX_SVG} with LVL {level} · {score_formatted} PTS")
+            updated = True
+
     return updated
 
 
@@ -258,6 +303,7 @@ def main() -> int:
 
     changed_readme = update_readme(streak)
     changed_json = update_streak_json(streak, total)
+    changed_svgs = update_streak_in_svgs(streak)
 
     return 0
 
