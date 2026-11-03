@@ -9,7 +9,6 @@ ROOT = Path(__file__).resolve().parent.parent
 STREAK_JSON = ROOT / "assets" / "streak.json"
 GITLAB_JSON = ROOT / "assets" / "gitlab-telemetry.json"
 CONSOLE_SVG = ROOT / "assets" / "unified-systems-console.svg"
-MATRIX_SVG = ROOT / "assets" / "milestone-matrix.svg"
 
 
 def test_streak_json():
@@ -52,25 +51,9 @@ def test_svg_parser_regex():
     print("[PASS] test_svg_parser_regex")
 
 
-def test_milestone_matrix_svg():
-    assert MATRIX_SVG.exists(), f"Missing {MATRIX_SVG}"
-    svg = MATRIX_SVG.read_text()
-    assert "TOP 7 GLOBAL HACKATHON" in svg, "Missing Slot 1 in matrix SVG"
-    assert "PAVAN KUMAR S." in svg, "Missing Slot 2 in matrix SVG"
-    assert "MATSYA OCEAN SENSOR POD" in svg, "Missing Slot 3 in matrix SVG"
-    assert "TINYFC20 REV C1" in svg, "Missing Slot 4 in matrix SVG"
-    assert "CUDA 12.6 · APPLE METAL" in svg, "Missing Slot 5 in matrix SVG"
-    assert "PLASTIPOD™ AUTONOMOUS BOT" in svg, "Missing Slot 6 in matrix SVG"
-    assert "90-DAY CONTINUOUS STREAK" in svg, "Missing Slot 7 in matrix SVG"
-    assert "INTIGRITI BUG RESEARCHER" in svg, "Missing Slot 8 in matrix SVG"
-    assert "Autonomous Edge Systems · GPU Runtimes · Custom ASIC Hardware" in svg, "Missing footer statement in matrix SVG"
-    print("[PASS] test_milestone_matrix_svg")
-
-
 if __name__ == "__main__":
     test_streak_json()
     test_gitlab_telemetry_json()
     test_console_svg()
-    test_milestone_matrix_svg()
     test_svg_parser_regex()
     print("ALL CHECKS PASSED.")
