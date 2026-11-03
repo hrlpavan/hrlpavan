@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HRL Systems Architecture — Production Delivery Console</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: #06070a;
+    }
+    .font-mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-6 text-slate-200">
+  <div class="w-full max-w-4xl rounded-xl border border-slate-800/80 bg-[#090A0F] shadow-2xl shadow-black/80 overflow-hidden">
+    <!-- Header Control Bar -->
+    <header class="flex flex-wrap items-center justify-between gap-4 px-6 py-4 border-b border-slate-800/80 bg-[#0F121A]/70 backdrop-blur-md">
+      <div class="flex flex-col gap-0.5">
+        <div class="flex items-center gap-2">
+          <span class="h-1.5 w-1.5 rounded-full bg-[#D1002D]"></span>
+          <span class="font-mono text-[11px] font-semibold uppercase tracking-wider text-slate-400">
+            HRL SYSTEMS ARCHITECTURE
+          </span>
+        </div>
+        <h1 class="text-base font-semibold tracking-tight text-white">
+          Production Architecture &amp; Delivery Console
+        </h1>
+      </div>
+
+      <!-- Global Delivery Indicator -->
+      <div class="flex items-center gap-2.5 rounded-full border border-emerald-500/20 bg-emerald-950/20 px-3 py-1 text-xs">
+        <span class="relative flex h-2 w-2">
+          <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
+          <span class="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
+        </span>
+        <span class="font-mono text-[11px] font-medium text-emerald-400">
+          Live CD / Merge Train Operational
+        </span>
+      </div>
+    </header>
+
+    <!-- Core Deliverables List -->
+    <main class="divide-y divide-slate-800/60 bg-[#0C0E15]">
+      <!-- Subsystem 1: Cloud & Orchestration -->
+      <article class="group px-6 py-4.5 transition-colors duration-150 hover:bg-slate-900/30">
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-1.5">
+          <div class="flex items-center gap-2.5">
+            <span class="text-xs font-mono font-medium text-slate-400 uppercase tracking-wide">
+              Cloud &amp; Orchestration:
+            </span>
+            <span class="text-sm font-semibold text-white tracking-tight">
+              GitLab Core &amp; AI Gateway
+            </span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="inline-flex items-center rounded border border-slate-700/80 bg-slate-900/80 px-2 py-0.5 font-mono text-[11px] font-medium text-amber-300">
+              MR !7641
+            </span>
+            <span class="inline-flex items-center rounded border border-emerald-500/30 bg-emerald-950/30 px-1.5 py-0.5 font-mono text-[10px] font-medium text-emerald-400">
+              CI Passed
+            </span>
+          </div>
+        </div>
+        <p class="text-xs text-slate-300 leading-relaxed mb-3">
+          Engineered deterministic tool-call loop guards in <code class="text-slate-200 bg-slate-800/50 px-1 py-0.5 rounded">ai-assist</code> preventing runaway agent cycles; authored canonical Architecture Design Document (ADD).
+        </p>
+        <div class="flex flex-wrap items-center gap-1.5">
+          <span class="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10.5px] font-mono text-slate-400">Ruby on Rails</span>
+          <span class="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10.5px] font-mono text-slate-400">Python</span>
+          <span class="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10.5px] font-mono text-slate-400">FastAPI</span>
+          <span class="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10.5px] font-mono text-slate-400">MCP</span>
+          <span class="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10.5px] font-mono text-slate-400">GDK</span>
+        </div>
+      </article>
+
+      <!-- Subsystem 2: Accelerated Compute -->
+      <article class="group px-6 py-4.5 transition-colors duration-150 hover:bg-slate-900/30">
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-1.5">
+          <div class="flex items-center gap-2.5">
+            <span class="text-xs font-mono font-medium text-slate-400 uppercase tracking-wide">
+              Accelerated Compute:
+            </span>
+            <span class="text-sm font-semibold text-white tracking-tight">
+              GPU &amp; Bare-Metal Systems
+            </span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="inline-flex items-center rounded border border-slate-700/80 bg-slate-900/80 px-2 py-0.5 font-mono text-[11px] font-medium text-amber-300">
+              OFX v2.4
+            </span>
+            <span class="inline-flex items-center rounded border border-emerald-500/30 bg-emerald-950/30 px-1.5 py-0.5 font-mono text-[10px] font-medium text-emerald-400">
+              Green
+            </span>
+          </div>
+        </div>
+        <p class="text-xs text-slate-300 leading-relaxed mb-3">
+          Low-overhead C++20, CUDA 12.6, and Apple Metal execution graphs; 12-bit ACEScc sensor dynamic range preservation for DaVinci Resolve GPU runtimes.
+        </p>
+        <div class="flex flex-wrap items-center gap-1.5">
+          <span class="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10.5px] font-mono text-slate-400">C++20</span>
+          <span class="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10.5px] font-mono text-slate-400">CUDA 12.6</span>
+          <span class="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10.5px] font-mono text-slate-400">Apple Metal</span>
+          <span class="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10.5px] font-mono text-slate-400">OpenFX</span>
+          <span class="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10.5px] font-mono text-slate-400">ACEScc</span>
+        </div>
+      </article>
+
+      <!-- Subsystem 3: Embedded / Hardware -->
+      <article class="group px-6 py-4.5 transition-colors duration-150 hover:bg-slate-900/30">
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-1.5">
+          <div class="flex items-center gap-2.5">
+            <span class="text-xs font-mono font-medium text-slate-400 uppercase tracking-wide">
+              Embedded / Hardware:
+            </span>
+            <span class="text-sm font-semibold text-white tracking-tight">
+              Production Hardware &amp; ASIC
+            </span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="inline-flex items-center rounded border border-slate-700/80 bg-slate-900/80 px-2 py-0.5 font-mono text-[11px] font-medium text-amber-300">
+              Rev C1
+            </span>
+            <span class="inline-flex items-center rounded border border-emerald-500/30 bg-emerald-950/30 px-1.5 py-0.5 font-mono text-[10px] font-medium text-emerald-400">
+              0 DRC Verified
+            </span>
+          </div>
+        </div>
+        <p class="text-xs text-slate-300 leading-relaxed mb-3">
+          Production STM32F405 quadcopter flight controller PCB package (TinyFC20 Rev C1, 0 DRC, complete BOM) and verified 8-bit CMOS 130nm ALU layout.
+        </p>
+        <div class="flex flex-wrap items-center gap-1.5">
+          <span class="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10.5px] font-mono text-slate-400">KiCad</span>
+          <span class="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10.5px] font-mono text-slate-400">Allegro</span>
+          <span class="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10.5px] font-mono text-slate-400">CMOS 130nm</span>
+          <span class="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10.5px] font-mono text-slate-400">STM32F405</span>
+          <span class="rounded border border-slate-800 bg-slate-900/90 px-2 py-0.5 text-[10.5px] font-mono text-slate-400">KLayout</span>
+        </div>
+      </article>
+    </main>
+
+    <!-- Synchronized Telemetry & Delivery Tray (Lower Deck) -->
+    <footer class="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-slate-800/80 border-t border-slate-800/80 bg-[#08090E]">
+      <!-- Panel A: Continuous Delivery -->
+      <div class="px-6 py-3.5 flex items-center justify-between gap-3">
+        <div class="flex items-center gap-2">
+          <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+          <span class="font-mono text-[11px] uppercase tracking-wider text-slate-400">
+            Pipeline Health
+          </span>
+        </div>
+        <div class="flex items-center gap-3 text-xs font-mono">
+          <span class="text-slate-300">
+            Status: <span class="text-emerald-400 font-semibold">Passing</span>
+          </span>
+          <span class="text-slate-600">|</span>
+          <span class="text-slate-400">
+            Target: <span class="text-slate-200">Production</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- Panel B: Contribution Telemetry -->
+      <div class="px-6 py-3.5 flex items-center justify-between gap-3 bg-slate-950/30">
+        <div class="flex items-center gap-2">
+          <span class="h-1.5 w-1.5 rounded-full bg-amber-400"></span>
+          <span class="font-mono text-[11px] uppercase tracking-wider text-slate-400">
+            Telemetry
+          </span>
+        </div>
+        <div class="flex items-center gap-2.5 text-xs font-mono">
+          <span class="text-amber-300 font-bold">1,853 Contributions</span>
+          <span class="text-slate-600">·</span>
+          <span class="text-amber-300 font-semibold">90d Streak</span>
+          <span class="text-slate-600">·</span>
+          <span class="text-blue-400 font-medium">GitLab Tier 3</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
