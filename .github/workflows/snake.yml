@@ -60,3 +60,19 @@ jobs:
           pull: "--rebase --autostash"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Mirror Commit to GitLab
+        env:
+          GITLAB_SSH_KEY: ${{ secrets.GITLAB_SSH_KEY }}
+        run: |
+          if [ -n "$GITLAB_SSH_KEY" ]; then
+            mkdir -p ~/.ssh
+            echo "$GITLAB_SSH_KEY" > ~/.ssh/id_gitlab
+            chmod 600 ~/.ssh/id_gitlab
+            ssh-keyscan -t rsa,ed25519 gitlab.com >> ~/.ssh/known_hosts 2>/dev/null || true
+            git remote add gitlab git@gitlab.com:hrlpavan/hrlpavan.git || git remote set-url gitlab git@gitlab.com:hrlpavan/hrlpavan.git
+            GIT_SSH_COMMAND="ssh -i ~/.ssh/id_gitlab -o StrictHostKeyChecking=accept-new" git push gitlab main
+            echo "[OK] Successfully mirrored telemetry commit to GitLab main."
+          else
+            echo "[WARN] GITLAB_SSH_KEY secret not found."
+          fi

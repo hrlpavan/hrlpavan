@@ -108,28 +108,67 @@ def calculate_active_streak(calendar: dict) -> int:
     return streak
 
 
-def update_readme(streak: int) -> bool:
-    """Update README.md with the current streak badge."""
+def update_readme(streak: int, total: int = 0) -> bool:
+    """Update README.md with the current streak badge and table metrics."""
     if not README.exists():
         print(f"[WARN] {README} does not exist.")
         return False
 
     content = README.read_text(encoding="utf-8")
-    pattern = r"Daily_Streak-\d+_Days_\(Active\)"
-    replacement = f"Daily_Streak-{streak}_Days_(Active)"
+    updated = False
 
-    if not re.search(pattern, content):
-        print("[WARN] Could not find Daily_Streak pattern in README.md")
-        return False
+    # 1. Update text badge
+    badge_pattern = r"Daily_Streak-\d+_Days_\(Active\)"
+    if re.search(badge_pattern, content):
+        new_content = re.sub(badge_pattern, f"Daily_Streak-{streak}_Days_(Active)", content)
+        if new_content != content:
+            content = new_content
+            updated = True
 
-    new_content, count = re.subn(pattern, replacement, content)
-    if new_content != content:
-        README.write_text(new_content, encoding="utf-8")
-        print(f"[OK] Updated README.md streak badge to: {streak} Days (Active)")
+    # 2. Update table text if total is provided
+    if total > 0:
+        table_pattern = r"[\d,]+\+ contributions in 2026,\s*\*\*\d+-day uninterrupted daily streak\*\*"
+        table_replacement = f"{total:,}+ contributions in 2026, **{streak}-day uninterrupted daily streak**"
+        if re.search(table_pattern, content):
+            new_content = re.sub(table_pattern, table_replacement, content)
+            if new_content != content:
+                content = new_content
+                updated = True
+
+    if updated:
+        README.write_text(content, encoding="utf-8")
+        print(f"[OK] Updated README.md streak reference to: {streak} Days, total: {total:,}")
         return True
     else:
         print(f"[INFO] README.md already up to date with {streak} Days (Active)")
         return False
+
+
+def update_console_metrics(streak: int, total: int) -> bool:
+    """Sync total contributions and streak into unified-systems-console.svg."""
+    if not UNIFIED_CONSOLE_SVG.exists():
+        return False
+    svg = UNIFIED_CONSOLE_SVG.read_text(encoding="utf-8")
+    total_str = f"{total:,}"
+    updated = False
+
+    # Metric 1: Upstream Contributions
+    new_svg = re.sub(
+        r'(<text[^>]*letter-spacing="-0\.5"[^>]*>)([\d,]+)(</text>\s*<text[^>]*>[^<]*Upstream Contributions)',
+        rf"\g<1>{total_str}\g<3>",
+        svg
+    )
+    # Metric 2: Continuous Velocity
+    new_svg = re.sub(
+        r'(<text[^>]*letter-spacing="-0\.5"[^>]*>)([\d]+ Days)(</text>\s*<text[^>]*>[^<]*Continuous Velocity)',
+        rf"\g<1>{streak} Days\g<3>",
+        new_svg
+    )
+    if new_svg != svg:
+        UNIFIED_CONSOLE_SVG.write_text(new_svg, encoding="utf-8")
+        print(f"[OK] Synced {UNIFIED_CONSOLE_SVG} with total={total_str}, streak={streak} Days")
+        updated = True
+    return updated
 
 
 def update_streak_json(streak: int, total: int) -> bool:
@@ -256,8 +295,9 @@ def main() -> int:
     streak = calculate_active_streak(cal)
     print(f"Ecosystem metrics for {USER}: total={total}, active_streak={streak} days")
 
-    changed_readme = update_readme(streak)
+    changed_readme = update_readme(streak, total)
     changed_json = update_streak_json(streak, total)
+    changed_console = update_console_metrics(streak, total)
 
     return 0
 
