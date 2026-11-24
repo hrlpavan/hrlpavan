@@ -1,0 +1,6 @@
+# Logs & System artifacts
+scripts/*.log
+scripts/*.err
+*.log
+__pycache__/
+.DS_Store
